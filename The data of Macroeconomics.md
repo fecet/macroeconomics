@@ -55,5 +55,13 @@ Gross **national** product (GNP) is total income earned by the nation’s factor
 
 In the other word:
 $$
-\begin{array}{c}{\mathrm{GNP}-\mathrm{GDP}=\text { factor payments from abroad }} \\ {\text { minus factor payments to abroad }}\end{array}
+{\mathrm{GNP}-\mathrm{GDP}=
+\text { factor payments from abroad }}- {\text { factor payments to abroad }}
 $$
+
+GDP can be sorted as **Nominal GDP** and **Real GDP**:
+
+==Nominal GDP== measures these values using current prices. 
+
+==Real GDP== measures these values using the prices of a base year. 
+
