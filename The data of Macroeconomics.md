@@ -65,3 +65,30 @@ GDP can be sorted as **Nominal GDP** and **Real GDP**:
 
 ==Real GDP== measures these values using the prices of a base year. 
 
+The difference between nominal and real is resulted from the increase in prices, we use ==GDP deflator== to describe ==inflation rate==
+$$
+GDP\ \text{deflator}=100 \times \frac{\text { Nominal GDP }}{\text { Real GDP }}
+$$
+Recall
+$$
+d(x y)=d x \frac{\partial(x y)}{\partial x}+d y \frac{\partial(x y)}{\partial y}
+$$
+Hence 
+$$
+\frac{d(xy)}{xy}=\frac{dx}{x}+\frac{dy}{y}
+$$
+therefore percentage change in NGDP approximate to the sum of percentage in GDP  deflator and RGDP.
+
+==chain-weighted real GDP== updates the base year, which is more accurate than constant-price GDP 
+
+**Consumer price index (CPI)** is a more popular measure
+of the overall level of prices. CPI in any month equals
+$$
+100 \times \frac{\text { Cost of basket in that month }}{\text { cost of basket in base period }}
+$$
+The CPI may overstate inflation because
+
+- **Substitution bias**
+- **Introduction of new goods**
+- **Unmeasured changes in quality**
+
