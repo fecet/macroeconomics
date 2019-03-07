@@ -99,5 +99,29 @@ Consumption function is $C=C(Y-T)$
 
 
 
-The **investment function** is $I=I(r)$, where $r$ denotes the **real interest rate**
+The **investment function** is $I=I(r)$, where $r​$ denotes the **real interest rate**
+
+$G$ is the government spending on g$s, excludes transfer
+payments. Assume government spending and total taxes are exogenous: 
+$$
+\mathbf{G}=\overline{\boldsymbol{G}} \quad \text { and } \quad \boldsymbol{T}=\overline{\boldsymbol{T}}
+$$
+We obtain following equilibrium:
+$$
+\overline{Y}=C(\overline{Y}-\overline{T})+I(r)+\overline{G}
+$$
+The real interest rate adjusts  to equate demand with supply.
+
+Rewrite the above equilibrium as:
+$$
+Y-C-G=I
+$$
+The left hand denotes the residual output after satisfy consumer and government, which is called **national saving(S)**. It’s also equal to the sum of private saving and public saving:
+$$
+\begin{aligned} \mathrm{S} &=\text { private saving }+\text { public saving } \\ &=(\mathbf{Y}-\boldsymbol{T})-\boldsymbol{C}+\boldsymbol{T}-\mathbf{G} \\ &=\mathbf{Y}-\boldsymbol{C}-\mathbf{G} \end{aligned}
+$$
+
+S depends on $Y, T$ and $G$, for fixed $Y, T$ and $G$, S is also fixed.
+
+![](img\saving.svg)
 
