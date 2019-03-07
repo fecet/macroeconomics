@@ -121,7 +121,12 @@ $$
 \begin{aligned} \mathrm{S} &=\text { private saving }+\text { public saving } \\ &=(\mathbf{Y}-\boldsymbol{T})-\boldsymbol{C}+\boldsymbol{T}-\mathbf{G} \\ &=\mathbf{Y}-\boldsymbol{C}-\mathbf{G} \end{aligned}
 $$
 
-S depends on $Y, T$ and $G$, for fixed $Y, T$ and $G$, S is also fixed.
+$S$ depends on $Y, T$ and $G$, for fixed $Y, T$ and $G$, S is also fixed.
 
 ![](img\saving.svg)
 
+When $G$ increases, then the demand of g&s increase $\Delta G$, because $C$ is fixed, $I$ decreases the same amount, which leads to the real interest rate to rise.
+
+![](img\crowd_out.svg)
+
+Now consider the situation when tax decrease $\Delta T$, the $C$ increase $\Delta T \times MPC$, since $Y-C-G=I$, $I$ should decrease, which result from the increase of $r$. 
