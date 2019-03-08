@@ -27,19 +27,14 @@ The following is some measures of money assets:
 | symbol |                       assets included                        | amount($ billions) |
 | :----: | :----------------------------------------------------------: | :----------------: |
 |  $C$   |                           Currency                           |        1279        |
-|  $M1$  | **C** +demand deposits, 
-travelers’ checks, 
-other checkable deposits |        2988        |
-|  $M2$  | **M1** +small time deposits, 
-savings deposits, 
-money market mutual funds, 
-money market deposit accounts |       11846        |
+|  $M1​$  | **C** +demand deposits, travelers’ checks, other checkable deposits |        2988        |
+|  $M2$  | **M1** +small time deposits, savings deposits, money market mutual funds, money market deposit accounts |       11846        |
 
 The money supply equals:
 $$
 M=C+D
 $$
-where $M$ is money supply, $D$ is demand deposits.
+where $M​$ is money supply, $D​$ is demand deposits.
 
 > Reserves(R) is the portion of deposits that banks have not lent.
 
@@ -65,10 +60,36 @@ However, a fractional-reserve banking system creates money, but it doesn’t cre
 
 > **Leverage** is the use of borrowed money to supplement existing funds for purposes of investment.
 >
-> **Leverage ratio** is defined as $\frac{assets}{bank\ capital}$
+> **Leverage ratio** is defined as $\frac{\text{assets}}{\text{bank capital}}​$
 
-When assets decrease $a\%$, the capital decrease $leverage\ ratio \times a\%$.
+When assets decrease $a\%​$, the capital decrease $\text{leverage ratio} \times a\%​$.
 
 > **Capital requirement** is §minimum amount of capital mandated by regulators
 
 Capital requirement intended to ensure banks will be able to pay off depositors, and it will be higher for banks that hold more risky assets.
+
+The we introduce a model with three exogenous
+variables as follows:
+
+- **Monetary base**($B$) is equal to $C+R$ and controlled by the central bank
+- **Reserve-deposit ratio**($rr$) is equal to $\frac{R}{D}$, which depends on regulations & bank policies
+- **Currency-deposit ratio**($cr$) is equal to $\frac{C}{D}$, which depends on households preferences
+
+Then:
+$$
+\frac{M}{B}=\frac{C+D}{C+R}
+$$
+Hence:
+$$
+\frac{M}{B}=\frac{cr+1}{rr+cr}
+$$
+Let $m=\frac{cr+1}{rr+cr}$, $M=m B$.
+
+$m$ is the **money multiplier**, the increase in the money supply resulting from a one-dollar increase 
+in the monetary base. $B​$ is also called **high-powered money**.
+
+Except open market operations, central bank also can change $B$ by changing the **discount rate**:
+
+- **reserve requirements**
+- **interest on reserves**
+
