@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     26334,        683]
-NotebookOptionsPosition[     20696,        607]
-NotebookOutlinePosition[     21250,        627]
-CellTagsIndexPosition[     21207,        624]
+NotebookDataLength[     40699,       1056]
+NotebookOptionsPosition[     32472,        952]
+NotebookOutlinePosition[     33028,        972]
+CellTagsIndexPosition[     32985,        969]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -80,14 +80,13 @@ Cell["4.", "Subsubsubsection",
  TextAlignment->Left,ExpressionUUID->"b52196da-3b6a-492c-8ccc-d8b084a74435"],
 
 Cell[TextData[{
- "Suppose that an economy' s production function is Cobb\[Dash]Douglas with \
-parameter ",
- Cell[BoxData[
+ StyleBox["Suppose that an economy' s production function is \
+Cobb\[Dash]Douglas with parameter ", "Subsubsubsection"],
+ StyleBox[Cell[BoxData[
   FormBox[
-   RowBox[{"\[Alpha]", "=", "0.3"}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
-  "db08058a-72db-4c95-a269-f84b364b0732"],
- "."
+   RowBox[{"\[Alpha]", "=", "0.3"}], TraditionalForm]], "Subsubsubsection",
+  ExpressionUUID->"db08058a-72db-4c95-a269-f84b364b0732"], "Subsubsubsection"],
+ StyleBox[".", "Subsubsubsection"]
 }], "Text",
  CellChangeTimes->{{3.7611269732866335`*^9, 3.7611270329920444`*^9}, {
   3.7611270808817244`*^9, 3.7611270808817244`*^9}},
@@ -107,8 +106,7 @@ Cell[TextData[{
  "\tWhen parameter ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"\[Alpha]", "=", "0.3"}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+   RowBox[{"\[Alpha]", "=", "0.3"}], TraditionalForm]],ExpressionUUID->
   "27e33732-f76e-468b-80ae-427f3848004d"],
  ", the Cobb\[Dash]Douglas production function is:"
 }], "Text",
@@ -603,10 +601,357 @@ Cell[BoxData[
   3.761131507267502*^9, 3.761131508973875*^9}, {3.761131597040515*^9, 
   3.761131619787485*^9}},ExpressionUUID->"170c76c0-fc40-47da-9324-\
 64f4a6d4e61f"]
+}, Open  ]],
+
+Cell["7.", "Subsubsubsection",
+ CellChangeTimes->{{3.7611418776386366`*^9, 
+  3.761141880122528*^9}},ExpressionUUID->"23f89b8e-93f8-4339-9e78-\
+967c1f62bf28"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Consider a Cobb\[Dash]Douglas production function with three inputs. K is \
+capital (the number of machines), L is labor (the number of workers), and H \
+is human capital (the number of college degrees among the workers). The \
+production function is\
+\>", "Subsubsubsection",
+ CellChangeTimes->{{3.7611418776386366`*^9, 3.76114187973615*^9}, 
+   3.761142095830103*^9, {3.761142667408136*^9, 
+   3.7611426795103006`*^9}},ExpressionUUID->"8cc92ad8-d8d4-453c-b6ce-\
+64481699e16d"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"Y", "=", 
+   RowBox[{
+    SuperscriptBox["K", 
+     RowBox[{"1", "/", "3"}]], 
+    SuperscriptBox["L", 
+     RowBox[{"1", "/", "3"}]], 
+    SuperscriptBox["H", 
+     RowBox[{"1", "/", "3"}]]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.761142117332076*^9, 
+  3.7611421304181957`*^9}},ExpressionUUID->"d6e6a3f2-798e-44ae-93db-\
+2edeff060cee"],
+
+Cell["\<\
+a. Derive an expression for the marginal product of labor. How does an \
+increase in the amount of human capital affect the marginal product of labor?\
+\>", "Text",
+ CellChangeTimes->{{3.7611422146247644`*^9, 3.7611422221343784`*^9}, {
+  3.761142512574521*^9, 3.7611425131300726`*^9}, {3.7611426933293533`*^9, 
+  3.7611426964344463`*^9}, {3.761143715510543*^9, 
+  3.7611437163074226`*^9}},ExpressionUUID->"8302a796-f3ed-40e7-90be-\
+548fa354a38f"],
+
+Cell["\tAccording to the definition of MPL:", "Text",
+ CellChangeTimes->{{3.7611422146247644`*^9, 3.7611422468375597`*^9}, {
+  3.761142486754363*^9, 3.7611424902226562`*^9}, {3.7611425220957828`*^9, 
+  3.7611425308005075`*^9}},ExpressionUUID->"3e909d1b-3348-4f34-992e-\
+b0c4be22056b"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"MPL", "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{"\[PartialD]", "Y"}], 
+     RowBox[{"\[PartialD]", "L"}]], "=", 
+    FractionBox[
+     RowBox[{
+      SuperscriptBox["H", 
+       RowBox[{"1", "/", "3"}]], " ", 
+      SuperscriptBox["K", 
+       RowBox[{"1", "/", "3"}]]}], 
+     RowBox[{"3", " ", 
+      SuperscriptBox["L", 
+       RowBox[{"2", "/", "3"}]]}]]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611422146247644`*^9, 3.7611422468375597`*^9}, {
+   3.761142486754363*^9, 3.7611424902226562`*^9}, {3.7611425220957828`*^9, 
+   3.7611425517789173`*^9}, 
+   3.761144047450237*^9},ExpressionUUID->"8698d48c-0da5-43cd-9d81-\
+54435a8f7d56"],
+
+Cell["\<\
+\tFrom this expression, we get that when human capital increases, MPL also \
+increases.\
+\>", "Text",
+ CellChangeTimes->{{3.761142598205422*^9, 
+  3.761142652021118*^9}},ExpressionUUID->"7f14f41b-353f-4a79-b8d9-\
+541e06f7f784"],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.7611433744470806`*^9, 
+  3.7611433759308605`*^9}},ExpressionUUID->"1595e372-8dee-4865-9f8a-\
+b71de5a90551"],
+
+Cell["\<\
+b. Derive an expression for the marginal product of human capital. How does \
+an increase in the amount of human capital affect the marginal product of \
+human capital?\
+\>", "Text",
+ CellChangeTimes->{{3.7611433744470806`*^9, 3.761143388633224*^9}, {
+  3.7611437235271387`*^9, 
+  3.761143723946822*^9}},ExpressionUUID->"4609e593-9b1c-4a77-8603-\
+710f2df039ee"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"MPH", "=", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["K", 
+      RowBox[{"1", "/", "3"}]], " ", 
+     SuperscriptBox["L", 
+      RowBox[{"1", "/", "3"}]]}], 
+    RowBox[{"3", " ", 
+     SuperscriptBox["H", 
+      RowBox[{"2", "/", "3"}]]}]]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611433744470806`*^9, 3.7611433922957487`*^9}, {
+   3.7611436723928995`*^9, 3.7611436857300673`*^9}, 
+   3.761144050948135*^9},ExpressionUUID->"dfc80db5-8dd8-46ee-b871-\
+94c0d3c59a4c"],
+
+Cell[" \tWhen human capital increases, MPH decreases.", "Text",
+ CellChangeTimes->{{3.761142598205422*^9, 3.761142651290508*^9}, {
+  3.761143692863502*^9, 3.761143696567068*^9}, {3.7611437716922255`*^9, 
+  3.761143793777751*^9}},ExpressionUUID->"5e3b4824-bf32-42fa-98ce-\
+1ef9b9b0971e"],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.7611437980878696`*^9, 
+  3.761143798088866*^9}},ExpressionUUID->"71b21084-3e84-4a1d-af42-\
+ab7a9706a6d9"],
+
+Cell["\<\
+c. What is the income share paid to labor? What is the income share paid to \
+human capital? In the national income accounts of this economy, what share of \
+total income do you think workers would appear to receive? (Hint: Consider \
+where the return to human capital shows up.)\
+\>", "Text",
+ CellChangeTimes->{{3.7611438086446238`*^9, 3.761143834217659*^9}, {
+  3.7611441029735823`*^9, 
+  3.7611441029735823`*^9}},ExpressionUUID->"758d9a16-baae-4a73-8992-\
+254db0efe696"],
+
+Cell["\<\
+\tThe amount income paid to labor is real wage times the number of workers:\
+\>", "Text",
+ CellChangeTimes->{{3.7611438086446238`*^9, 3.761143834217659*^9}, {
+  3.761144110887185*^9, 
+  3.761144183293478*^9}},ExpressionUUID->"6d26e5d7-a090-4904-9d04-\
+ef57f4d099b8"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"MPL", "\[Times]", "L"}], "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      SuperscriptBox["H", 
+       RowBox[{"1", "/", "3"}]], " ", 
+      SuperscriptBox["K", 
+       RowBox[{"1", "/", "3"}]]}], 
+     RowBox[{"3", " ", 
+      SuperscriptBox["L", 
+       RowBox[{"2", "/", "3"}]]}]], "L"}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611438086446238`*^9, 3.761143834217659*^9}, {
+  3.761144110887185*^9, 
+  3.76114424440781*^9}},ExpressionUUID->"86ea52ac-b29d-4c0c-bfa0-\
+b33b630e2572"],
+
+Cell["\tThe income share paid to labor is:", "Text",
+ CellChangeTimes->{{3.761144276505185*^9, 3.7611442808037915`*^9}, 
+   3.761144353990967*^9},ExpressionUUID->"60205bbd-60d1-42c3-9258-\
+5e402b4ff9e6"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{"real", " ", "wage"}], 
+    RowBox[{"total", " ", "output"}]], "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["H", 
+         RowBox[{"1", "/", "3"}]], " ", 
+        SuperscriptBox["K", 
+         RowBox[{"1", "/", "3"}]]}], 
+       RowBox[{"3", " ", 
+        SuperscriptBox["L", 
+         RowBox[{"2", "/", "3"}]]}]], "L"}], 
+     RowBox[{
+      SuperscriptBox["K", 
+       RowBox[{"1", "/", "3"}]], 
+      SuperscriptBox["L", 
+       RowBox[{"1", "/", "3"}]], 
+      SuperscriptBox["H", 
+       RowBox[{"1", "/", "3"}]]}]], "=", 
+    FractionBox["1", "3"]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.761144276505185*^9, 
+  3.7611443327444057`*^9}},ExpressionUUID->"20aad23b-5450-478c-96c9-\
+7015b44b2db3"],
+
+Cell["\<\
+\tSimilarly, we could obtain the income share paid to human capital:\
+\>", "Text",
+ CellChangeTimes->{{3.7611443563679967`*^9, 3.7611443738374944`*^9}, {
+  3.761144529965377*^9, 
+  3.7611445462271137`*^9}},ExpressionUUID->"dce796da-073e-4f31-86e3-\
+3787798392ec"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["K", 
+        RowBox[{"1", "/", "3"}]], " ", 
+       SuperscriptBox["L", 
+        RowBox[{"1", "/", "3"}]]}], 
+      RowBox[{"3", " ", 
+       SuperscriptBox["H", 
+        RowBox[{"2", "/", "3"}]]}]], "H"}], 
+    RowBox[{
+     SuperscriptBox["K", 
+      RowBox[{"1", "/", "3"}]], 
+     SuperscriptBox["L", 
+      RowBox[{"1", "/", "3"}]], 
+     SuperscriptBox["H", 
+      RowBox[{"1", "/", "3"}]]}]], "=", 
+   FractionBox["1", "3"]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611443563679967`*^9, 3.7611443738374944`*^9}, {
+  3.761144529965377*^9, 
+  3.7611445694561453`*^9}},ExpressionUUID->"f71387cb-933f-48f9-bf7f-\
+97cf7c59c638"],
+
+Cell[TextData[{
+ "\tBecause the human capital is owned by workers themselves, workers receive \
+",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["2", "3"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "f9c03702-3593-459c-b5f3-b48106c87601"],
+ " income."
+}], "Text",
+ CellChangeTimes->{{3.7611445813085523`*^9, 
+  3.7611446696256456`*^9}},ExpressionUUID->"9d6f7ac8-c522-42fa-a21b-\
+5b39e99e5b17"],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.7611445813085523`*^9, 
+  3.7611446734621305`*^9}},ExpressionUUID->"9ae67cbb-3f56-444a-acf7-\
+eb991d0ef9be"],
+
+Cell["\<\
+d. An unskilled worker earns the marginal product of labor, whereas a skilled \
+worker earns the marginal product of labor plus the marginal product of human \
+capital. Using your answers to parts (a) and (b), find the ratio of the \
+skilled wage to the unskilled wage. How does an increase in the amount of \
+human capital affect this ratio? Explain.\
+\>", "Text",
+ CellChangeTimes->{{3.7611445813085523`*^9, 3.761144712427426*^9}, {
+  3.761144829421776*^9, 
+  3.761144829421776*^9}},ExpressionUUID->"ad5b6558-7574-4a11-a5ca-\
+cfd8ffd07c8f"],
+
+Cell[TextData[{
+ "\tFor a skilled worker, his unit wage is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"MPL", "+", "MPH"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "b8689a19-20d7-42f9-92a0-b027182eb889"],
+ ", while unskilled one is ",
+ Cell[BoxData[
+  FormBox["MPL", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "2d2c4d3a-6e2a-4a4f-8f53-688cd545e19f"],
+ ", the ratio between them is:"
+}], "Text",
+ CellChangeTimes->{{3.7611445813085523`*^9, 3.761144712427426*^9}, {
+  3.7611448309402714`*^9, 3.761144927410471*^9}, {3.7611451380718784`*^9, 
+  3.76114513830229*^9}},ExpressionUUID->"01225403-586c-4333-9f21-\
+ffc19373a3cb"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{"MPL", "+", "MPH"}], "MPL"], "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["H", 
+         RowBox[{"1", "/", "3"}]], " ", 
+        SuperscriptBox["K", 
+         RowBox[{"1", "/", "3"}]]}], 
+       RowBox[{"3", " ", 
+        SuperscriptBox["L", 
+         RowBox[{"2", "/", "3"}]]}]], "+", 
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["K", 
+         RowBox[{"1", "/", "3"}]], " ", 
+        SuperscriptBox["L", 
+         RowBox[{"1", "/", "3"}]]}], 
+       RowBox[{"3", " ", 
+        SuperscriptBox["H", 
+         RowBox[{"2", "/", "3"}]]}]]}], 
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["H", 
+        RowBox[{"1", "/", "3"}]], " ", 
+       SuperscriptBox["K", 
+        RowBox[{"1", "/", "3"}]]}], 
+      RowBox[{"3", " ", 
+       SuperscriptBox["L", 
+        RowBox[{"2", "/", "3"}]]}]]], "=", 
+    FractionBox[
+     RowBox[{"H", "+", "L"}], "H"]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611445813085523`*^9, 3.761144712427426*^9}, {
+  3.7611448309402714`*^9, 
+  3.761144975612218*^9}},ExpressionUUID->"ebcc12d1-4b83-47a8-b374-\
+74ec0fb677c7"],
+
+Cell[TextData[{
+ "\tWhen ",
+ Cell[BoxData[
+  FormBox["H", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "2f22592a-78c5-4725-9e38-766b984ac01d"],
+ " increases, the ratio decreases. That is because MPH decreases."
+}], "Text",
+ CellChangeTimes->{{3.7611445813085523`*^9, 3.761144707029047*^9}, {
+  3.761144988705988*^9, 3.761144999679861*^9}, {3.7611451230005765`*^9, 
+  3.7611452251520634`*^9}},ExpressionUUID->"44a5ea3c-2086-454c-a51d-\
+6c984f976f4e"],
+
+Cell["\<\
+e. Some people advocate government funding of college scholarships as a way \
+of creating a more egalitarian society. Others argue that scholarships help \
+only those who are able to go to college. Do your answers to the preceding \
+questions shed light on this debate?\
+\>", "Text",
+ CellChangeTimes->{{3.7611445813085523`*^9, 3.761144707029047*^9}, {
+  3.761144988705988*^9, 3.761144999679861*^9}, {3.7611451230005765`*^9, 
+  3.7611452807529116`*^9}},ExpressionUUID->"4d77e12c-a747-4c33-bbc8-\
+2b6c066fc630"]
 }, Open  ]]
 },
-WindowSize->{1616, 2037},
-WindowMargins->{{Automatic, -14}, {Automatic, 0}},
+WindowSize->{3240, 2055},
+WindowMargins->{{-16, Automatic}, {Automatic, -16}},
 PrintingPageRange->{Automatic, Automatic},
 Magnification:>3. Inherited,
 FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (2018\:5e743\:670828\
@@ -642,48 +987,76 @@ Cell[2352, 62, 342, 7, 189, "Subsubsubsection",ExpressionUUID->"6f5a7cc0-0879-4b
 Cell[2697, 71, 173, 2, 89, "Subsubsubsection",ExpressionUUID->"0c4b8ded-20d4-47ab-b6da-508bd52a48fc"],
 Cell[CellGroupData[{
 Cell[2895, 77, 177, 2, 89, "Subsubsubsection",ExpressionUUID->"b52196da-3b6a-492c-8ccc-d8b084a74435"],
-Cell[3075, 81, 497, 12, 173, "Text",ExpressionUUID->"cab81175-8809-4b86-910f-33e08b9e6354"],
-Cell[3575, 95, 163, 2, 98, "Text",ExpressionUUID->"35d7e642-6039-4141-9d3d-55bfc3372951"],
-Cell[3741, 99, 320, 4, 98, "Text",ExpressionUUID->"f5a42db1-cdb6-4bc0-aae5-ab52219e6ac4"],
-Cell[4064, 105, 471, 11, 173, "Text",ExpressionUUID->"370f6a0f-0900-415c-bafc-9922d56cdd1a"],
-Cell[4538, 118, 409, 11, 128, "EquationNumbered",ExpressionUUID->"d5b1afec-bec1-4f0c-ba7f-a27f25b4dd26"],
-Cell[4950, 131, 567, 17, 173, "Text",ExpressionUUID->"1da80fee-05cf-443c-8cad-fc2cd5039f38"],
-Cell[5520, 150, 146, 3, 98, "Text",ExpressionUUID->"ba94e010-6b90-4c2a-8d7c-b63bc8d48acf"],
-Cell[5669, 155, 360, 8, 247, "Text",ExpressionUUID->"48bafe30-ea53-406d-846d-4650a55405b9"],
-Cell[6032, 165, 305, 7, 109, "Text",ExpressionUUID->"3f46df19-9e37-4c24-a020-dab1b3d7a456"],
-Cell[6340, 174, 501, 12, 173, "Text",ExpressionUUID->"5c6ab81f-f0eb-41cf-aa06-ada79072f69b"],
-Cell[6844, 188, 614, 18, 128, "EquationNumbered",ExpressionUUID->"e4b091da-9baf-4c37-8f70-354daf447520"],
-Cell[7461, 208, 305, 5, 98, "Text",ExpressionUUID->"ddb0fe2f-1479-4536-983a-1636790c7b46"],
-Cell[7769, 215, 799, 23, 206, "EquationNumbered",ExpressionUUID->"2145ce48-f2d0-4e18-a733-316ab6a0a14b"],
-Cell[8571, 240, 356, 8, 109, "Text",ExpressionUUID->"59dca9e5-ac7c-48a4-a826-64da3a75c3e6"],
-Cell[8930, 250, 226, 4, 98, "Text",ExpressionUUID->"71b4c969-1bc1-424d-927d-932bea39f6eb"],
-Cell[9159, 256, 594, 16, 189, "EquationNumbered",ExpressionUUID->"1c2f0d45-d4e4-4eb2-b673-586371f9a8dd"],
-Cell[9756, 274, 175, 3, 98, "Text",ExpressionUUID->"fac6b659-5bad-49ec-92ec-43944789b43c"],
-Cell[9934, 279, 553, 17, 189, "EquationNumbered",ExpressionUUID->"bc2e4b04-349f-4788-bb71-61746f2ab327"],
-Cell[10490, 298, 179, 3, 98, "Text",ExpressionUUID->"350eac6d-70ea-4006-bca4-f3d4eabd1c97"],
-Cell[10672, 303, 900, 29, 361, "EquationNumbered",ExpressionUUID->"bc72ad93-6207-4cf1-b8f5-63a51af45ba1"],
-Cell[11575, 334, 402, 9, 109, "Text",ExpressionUUID->"71f14474-0689-448e-a38f-e15d2fb904a3"],
-Cell[11980, 345, 273, 4, 98, "Text",ExpressionUUID->"1030faa5-8c3a-4d80-9d9d-ca97d6a4ffac"],
-Cell[12256, 351, 484, 12, 128, "EquationNumbered",ExpressionUUID->"bf9f9c98-c7a1-4915-9812-a11eb1b96cf1"],
-Cell[12743, 365, 173, 3, 98, "Text",ExpressionUUID->"941cd010-4297-4676-b7dc-25f34e957bcc"],
-Cell[12919, 370, 458, 13, 128, "EquationNumbered",ExpressionUUID->"5fa7b79e-07f5-474d-94be-89f38b060267"],
-Cell[13380, 385, 176, 3, 98, "Text",ExpressionUUID->"d3f11a4f-daa6-4be7-b6f3-29eefeb63f0a"],
-Cell[13559, 390, 934, 30, 359, "EquationNumbered",ExpressionUUID->"6e3dc790-181e-4082-8080-a98fc507db86"],
-Cell[14496, 422, 143, 3, 98, "Text",ExpressionUUID->"f59c1d25-23ed-453f-b1f1-6325a36d6035"],
-Cell[14642, 427, 425, 8, 247, "Text",ExpressionUUID->"c0fe32a9-69d4-4aaf-aae9-1b78b2b70534"],
-Cell[15070, 437, 409, 6, 98, "Text",ExpressionUUID->"18524b70-4f7f-447a-8172-507b3a566bf3"],
-Cell[15482, 445, 881, 25, 206, "EquationNumbered",ExpressionUUID->"620ee8cf-9880-4ff2-983a-3bc5bb5ccae2"],
-Cell[16366, 472, 225, 4, 98, "Text",ExpressionUUID->"fb59ca10-f722-4156-9938-e8246c60d1d3"],
-Cell[16594, 478, 425, 13, 200, "EquationNumbered",ExpressionUUID->"e26c6925-74f7-4752-8deb-f77790b2f710"],
-Cell[17022, 493, 230, 4, 98, "Text",ExpressionUUID->"53bd8aed-aa26-4e89-b10d-02e5b6403d13"],
-Cell[17255, 499, 144, 3, 98, "Text",ExpressionUUID->"70e266e7-b865-4133-889e-da8bf2f47d47"],
-Cell[17402, 504, 382, 8, 247, "Text",ExpressionUUID->"d80c29a9-06a0-4873-8929-67a471c34c88"],
-Cell[17787, 514, 222, 4, 98, "Text",ExpressionUUID->"70350ab7-a69b-4557-a36e-1ad3ac166c5a"],
-Cell[18012, 520, 590, 19, 206, "EquationNumbered",ExpressionUUID->"b332db6c-e7dc-4581-91fb-9f6171624901"],
-Cell[18605, 541, 226, 4, 98, "Text",ExpressionUUID->"436245cd-6bd7-4554-85b6-382e16718fce"],
-Cell[18834, 547, 768, 23, 206, "EquationNumbered",ExpressionUUID->"17593737-d124-493a-a317-87b31b82fc09"],
-Cell[19605, 572, 275, 7, 173, "Text",ExpressionUUID->"acc959cd-c8cb-4fa3-a186-b72072f5a434"],
-Cell[19883, 581, 797, 23, 206, "EquationNumbered",ExpressionUUID->"170c76c0-fc40-47da-9324-64f4a6d4e61f"]
+Cell[3075, 81, 574, 11, 193, "Text",ExpressionUUID->"cab81175-8809-4b86-910f-33e08b9e6354"],
+Cell[3652, 94, 163, 2, 98, "Text",ExpressionUUID->"35d7e642-6039-4141-9d3d-55bfc3372951"],
+Cell[3818, 98, 320, 4, 98, "Text",ExpressionUUID->"f5a42db1-cdb6-4bc0-aae5-ab52219e6ac4"],
+Cell[4141, 104, 438, 10, 173, "Text",ExpressionUUID->"370f6a0f-0900-415c-bafc-9922d56cdd1a"],
+Cell[4582, 116, 409, 11, 128, "EquationNumbered",ExpressionUUID->"d5b1afec-bec1-4f0c-ba7f-a27f25b4dd26"],
+Cell[4994, 129, 567, 17, 173, "Text",ExpressionUUID->"1da80fee-05cf-443c-8cad-fc2cd5039f38"],
+Cell[5564, 148, 146, 3, 98, "Text",ExpressionUUID->"ba94e010-6b90-4c2a-8d7c-b63bc8d48acf"],
+Cell[5713, 153, 360, 8, 247, "Text",ExpressionUUID->"48bafe30-ea53-406d-846d-4650a55405b9"],
+Cell[6076, 163, 305, 7, 109, "Text",ExpressionUUID->"3f46df19-9e37-4c24-a020-dab1b3d7a456"],
+Cell[6384, 172, 501, 12, 173, "Text",ExpressionUUID->"5c6ab81f-f0eb-41cf-aa06-ada79072f69b"],
+Cell[6888, 186, 614, 18, 128, "EquationNumbered",ExpressionUUID->"e4b091da-9baf-4c37-8f70-354daf447520"],
+Cell[7505, 206, 305, 5, 98, "Text",ExpressionUUID->"ddb0fe2f-1479-4536-983a-1636790c7b46"],
+Cell[7813, 213, 799, 23, 206, "EquationNumbered",ExpressionUUID->"2145ce48-f2d0-4e18-a733-316ab6a0a14b"],
+Cell[8615, 238, 356, 8, 109, "Text",ExpressionUUID->"59dca9e5-ac7c-48a4-a826-64da3a75c3e6"],
+Cell[8974, 248, 226, 4, 98, "Text",ExpressionUUID->"71b4c969-1bc1-424d-927d-932bea39f6eb"],
+Cell[9203, 254, 594, 16, 189, "EquationNumbered",ExpressionUUID->"1c2f0d45-d4e4-4eb2-b673-586371f9a8dd"],
+Cell[9800, 272, 175, 3, 98, "Text",ExpressionUUID->"fac6b659-5bad-49ec-92ec-43944789b43c"],
+Cell[9978, 277, 553, 17, 189, "EquationNumbered",ExpressionUUID->"bc2e4b04-349f-4788-bb71-61746f2ab327"],
+Cell[10534, 296, 179, 3, 98, "Text",ExpressionUUID->"350eac6d-70ea-4006-bca4-f3d4eabd1c97"],
+Cell[10716, 301, 900, 29, 361, "EquationNumbered",ExpressionUUID->"bc72ad93-6207-4cf1-b8f5-63a51af45ba1"],
+Cell[11619, 332, 402, 9, 109, "Text",ExpressionUUID->"71f14474-0689-448e-a38f-e15d2fb904a3"],
+Cell[12024, 343, 273, 4, 98, "Text",ExpressionUUID->"1030faa5-8c3a-4d80-9d9d-ca97d6a4ffac"],
+Cell[12300, 349, 484, 12, 128, "EquationNumbered",ExpressionUUID->"bf9f9c98-c7a1-4915-9812-a11eb1b96cf1"],
+Cell[12787, 363, 173, 3, 98, "Text",ExpressionUUID->"941cd010-4297-4676-b7dc-25f34e957bcc"],
+Cell[12963, 368, 458, 13, 128, "EquationNumbered",ExpressionUUID->"5fa7b79e-07f5-474d-94be-89f38b060267"],
+Cell[13424, 383, 176, 3, 98, "Text",ExpressionUUID->"d3f11a4f-daa6-4be7-b6f3-29eefeb63f0a"],
+Cell[13603, 388, 934, 30, 359, "EquationNumbered",ExpressionUUID->"6e3dc790-181e-4082-8080-a98fc507db86"],
+Cell[14540, 420, 143, 3, 98, "Text",ExpressionUUID->"f59c1d25-23ed-453f-b1f1-6325a36d6035"],
+Cell[14686, 425, 425, 8, 247, "Text",ExpressionUUID->"c0fe32a9-69d4-4aaf-aae9-1b78b2b70534"],
+Cell[15114, 435, 409, 6, 98, "Text",ExpressionUUID->"18524b70-4f7f-447a-8172-507b3a566bf3"],
+Cell[15526, 443, 881, 25, 206, "EquationNumbered",ExpressionUUID->"620ee8cf-9880-4ff2-983a-3bc5bb5ccae2"],
+Cell[16410, 470, 225, 4, 98, "Text",ExpressionUUID->"fb59ca10-f722-4156-9938-e8246c60d1d3"],
+Cell[16638, 476, 425, 13, 200, "EquationNumbered",ExpressionUUID->"e26c6925-74f7-4752-8deb-f77790b2f710"],
+Cell[17066, 491, 230, 4, 98, "Text",ExpressionUUID->"53bd8aed-aa26-4e89-b10d-02e5b6403d13"],
+Cell[17299, 497, 144, 3, 98, "Text",ExpressionUUID->"70e266e7-b865-4133-889e-da8bf2f47d47"],
+Cell[17446, 502, 382, 8, 247, "Text",ExpressionUUID->"d80c29a9-06a0-4873-8929-67a471c34c88"],
+Cell[17831, 512, 222, 4, 98, "Text",ExpressionUUID->"70350ab7-a69b-4557-a36e-1ad3ac166c5a"],
+Cell[18056, 518, 590, 19, 206, "EquationNumbered",ExpressionUUID->"b332db6c-e7dc-4581-91fb-9f6171624901"],
+Cell[18649, 539, 226, 4, 98, "Text",ExpressionUUID->"436245cd-6bd7-4554-85b6-382e16718fce"],
+Cell[18878, 545, 768, 23, 206, "EquationNumbered",ExpressionUUID->"17593737-d124-493a-a317-87b31b82fc09"],
+Cell[19649, 570, 275, 7, 173, "Text",ExpressionUUID->"acc959cd-c8cb-4fa3-a186-b72072f5a434"],
+Cell[19927, 579, 797, 23, 206, "EquationNumbered",ExpressionUUID->"170c76c0-fc40-47da-9324-64f4a6d4e61f"]
+}, Open  ]],
+Cell[20739, 605, 158, 3, 112, "Subsubsubsection",ExpressionUUID->"23f89b8e-93f8-4339-9e78-967c1f62bf28"],
+Cell[CellGroupData[{
+Cell[20922, 612, 488, 9, 391, "Subsubsubsection",ExpressionUUID->"8cc92ad8-d8d4-453c-b6ce-64481699e16d"],
+Cell[21413, 623, 397, 12, 128, "EquationNumbered",ExpressionUUID->"d6e6a3f2-798e-44ae-93db-2edeff060cee"],
+Cell[21813, 637, 456, 8, 247, "Text",ExpressionUUID->"8302a796-f3ed-40e7-90be-548fa354a38f"],
+Cell[22272, 647, 284, 4, 98, "Text",ExpressionUUID->"3e909d1b-3348-4f34-992e-b0c4be22056b"],
+Cell[22559, 653, 702, 20, 206, "EquationNumbered",ExpressionUUID->"8698d48c-0da5-43cd-9d81-54435a8f7d56"],
+Cell[23264, 675, 237, 6, 173, "Text",ExpressionUUID->"7f14f41b-353f-4a79-b8d9-541e06f7f784"],
+Cell[23504, 683, 146, 3, 98, "Text",ExpressionUUID->"1595e372-8dee-4865-9f8a-b71de5a90551"],
+Cell[23653, 688, 371, 8, 247, "Text",ExpressionUUID->"4609e593-9b1c-4a77-8603-710f2df039ee"],
+Cell[24027, 698, 532, 15, 206, "EquationNumbered",ExpressionUUID->"dfc80db5-8dd8-46ee-b871-94c0d3c59a4c"],
+Cell[24562, 715, 286, 4, 98, "Text",ExpressionUUID->"5e3b4824-bf32-42fa-98ce-1ef9b9b0971e"],
+Cell[24851, 721, 144, 3, 98, "Text",ExpressionUUID->"71b21084-3e84-4a1d-af42-ab7a9706a6d9"],
+Cell[24998, 726, 484, 9, 173, "Text",ExpressionUUID->"758d9a16-baae-4a73-8992-254db0efe696"],
+Cell[25485, 737, 276, 6, 98, "Text",ExpressionUUID->"6d26e5d7-a090-4904-9d04-ef57f4d099b8"],
+Cell[25764, 745, 563, 18, 206, "EquationNumbered",ExpressionUUID->"86ea52ac-b29d-4c0c-bfa0-b33b630e2572"],
+Cell[26330, 765, 203, 3, 98, "Text",ExpressionUUID->"60205bbd-60d1-42c3-9258-5e402b4ff9e6"],
+Cell[26536, 770, 850, 28, 256, "EquationNumbered",ExpressionUUID->"20aad23b-5450-478c-96c9-7015b44b2db3"],
+Cell[27389, 800, 273, 6, 98, "Text",ExpressionUUID->"dce796da-073e-4f31-86e3-3787798392ec"],
+Cell[27665, 808, 773, 25, 250, "EquationNumbered",ExpressionUUID->"f71387cb-933f-48f9-bf7f-97cf7c59c638"],
+Cell[28441, 835, 415, 12, 125, "Text",ExpressionUUID->"9d6f7ac8-c522-42fa-a21b-5b39e99e5b17"],
+Cell[28859, 849, 146, 3, 98, "Text",ExpressionUUID->"9ae67cbb-3f56-444a-acf7-eb991d0ef9be"],
+Cell[29008, 854, 552, 10, 247, "Text",ExpressionUUID->"ad5b6558-7574-4a11-a5ca-cfd8ffd07c8f"],
+Cell[29563, 866, 673, 17, 98, "Text",ExpressionUUID->"01225403-586c-4333-9f21-ffc19373a3cb"],
+Cell[30239, 885, 1217, 40, 307, "EquationNumbered",ExpressionUUID->"ebcc12d1-4b83-47a8-b374-74ec0fb677c7"],
+Cell[31459, 927, 474, 11, 98, "Text",ExpressionUUID->"44a5ea3c-2086-454c-a51d-6c984f976f4e"],
+Cell[31936, 940, 520, 9, 173, "Text",ExpressionUUID->"4d77e12c-a747-4c33-bbc8-2b6c066fc630"]
 }, Open  ]]
 }
 ]
