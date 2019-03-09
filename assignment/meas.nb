@@ -1,0 +1,691 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     26334,        683]
+NotebookOptionsPosition[     20696,        607]
+NotebookOutlinePosition[     21250,        627]
+CellTagsIndexPosition[     21207,        624]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Macroeconomic", "Title",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.751363145075364*^9, 3.7513631479317236`*^9}, 
+   3.7515792727576866`*^9, 
+   3.7611268521047792`*^9},ExpressionUUID->"f40f2dd1-7782-4ad2-ae58-\
+842da7773a90"],
+
+Cell["\:8c22\:6cfd\:5065", "Author",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.7513631569096904`*^9, 3.751363160808262*^9}, 
+   3.7515792727576866`*^9},ExpressionUUID->"717e2a8d-c214-4637-bcf4-\
+c24ddffeead9"],
+
+Cell["11810105", "Institution",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.751363163660637*^9, 3.7513631666865473`*^9}, 
+   3.7515792727581835`*^9},ExpressionUUID->"555ce930-e32c-478a-98a0-\
+694e655d6695"],
+
+Cell["Assignment", "AbstractSection",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.751363182828395*^9, 3.751363186299117*^9}, 
+   3.7515792727581835`*^9, {3.752188711228119*^9, 3.75218871320887*^9}, {
+   3.752661261105838*^9, 3.7526612614818087`*^9}, {3.75270902021029*^9, 
+   3.752709020285407*^9}, {3.753335738567007*^9, 3.7533357393353415`*^9}, {
+   3.754224274108808*^9, 3.754224275760751*^9}, 
+   3.761126844539896*^9},ExpressionUUID->"04963c82-2998-45e8-937c-\
+e16740860a05"],
+
+Cell["2019.3.10", "Date",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.751363200261101*^9, 3.751363207826875*^9}, 
+   3.7515792727581835`*^9, {3.752188708658812*^9, 3.752188708767974*^9}, {
+   3.752661267348343*^9, 3.752661269812735*^9}, {3.7533357358643165`*^9, 
+   3.753335737101171*^9}, {3.754224266728489*^9, 3.7542242670246873`*^9}, {
+   3.7611271693365026`*^9, 
+   3.761127174670718*^9}},ExpressionUUID->"b5d84ac4-5c20-4cf9-bb54-\
+22a00e0dad96"]
+}, Open  ]],
+
+Cell[TextData[{
+ StyleBox["Chapter 3:",
+  FontSlant->"Plain"],
+ " National Income : Where It Comes From and Where It Goes"
+}], "Subsubsubsection",
+ CellChangeTimes->{{3.7611268587560363`*^9, 3.761126958464878*^9}, {
+  3.761127117478574*^9, 3.761127133546618*^9}},
+ TextAlignment->Center,ExpressionUUID->"6f5a7cc0-0879-4b8a-a665-c169acf7cc5f"],
+
+Cell["", "Subsubsubsection",
+ CellChangeTimes->{{3.7611268587560363`*^9, 3.761126970168936*^9}},
+ TextAlignment->Left,ExpressionUUID->"0c4b8ded-20d4-47ab-b6da-508bd52a48fc"],
+
+Cell[CellGroupData[{
+
+Cell["4.", "Subsubsubsection",
+ CellChangeTimes->{{3.7611269732866335`*^9, 3.7611269911677427`*^9}},
+ TextAlignment->Left,ExpressionUUID->"b52196da-3b6a-492c-8ccc-d8b084a74435"],
+
+Cell[TextData[{
+ "Suppose that an economy' s production function is Cobb\[Dash]Douglas with \
+parameter ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Alpha]", "=", "0.3"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "db08058a-72db-4c95-a269-f84b364b0732"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.7611269732866335`*^9, 3.7611270329920444`*^9}, {
+  3.7611270808817244`*^9, 3.7611270808817244`*^9}},
+ TextAlignment->Left,ExpressionUUID->"cab81175-8809-4b86-910f-33e08b9e6354"],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.7611269732866335`*^9, 3.7611270329920444`*^9}},
+ TextAlignment->Left,ExpressionUUID->"35d7e642-6039-4141-9d3d-55bfc3372951"],
+
+Cell["a. What fractions of income do capital and labor receive?\t", "Text",
+ CellChangeTimes->{{3.761127040792761*^9, 3.7611270574338264`*^9}, {
+  3.761127180135687*^9, 3.761127180135687*^9}, {3.761127363716384*^9, 
+  3.7611273712995214`*^9}},
+ TextAlignment->Left,ExpressionUUID->"f5a42db1-cdb6-4bc0-aae5-ab52219e6ac4"],
+
+Cell[TextData[{
+ "\tWhen parameter ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Alpha]", "=", "0.3"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "27e33732-f76e-468b-80ae-427f3848004d"],
+ ", the Cobb\[Dash]Douglas production function is:"
+}], "Text",
+ CellChangeTimes->{{3.761127040792761*^9, 3.7611270574338264`*^9}, {
+  3.7611273742025557`*^9, 3.761127433698848*^9}},
+ TextAlignment->Left,ExpressionUUID->"370f6a0f-0900-415c-bafc-9922d56cdd1a"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"F", "(", 
+    RowBox[{"K", ",", "L"}], ")"}], "=", 
+   RowBox[{"A", " ", 
+    SuperscriptBox["K", "0.3"], 
+    SuperscriptBox["L", "0.7"]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.761127040792761*^9, 3.7611270574338264`*^9}, {
+  3.7611273742025557`*^9, 
+  3.7611274901128016`*^9}},ExpressionUUID->"d5b1afec-bec1-4f0c-ba7f-\
+a27f25b4dd26"],
+
+Cell[TextData[{
+ "\tHence, capital receive ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"30", "%"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "e00ca0d7-1798-4a1f-a325-c2e9a0cdfa59"],
+ " of income while labor get ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"70", "%"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "46575852-7819-4741-ae43-517d75303bf5"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.761127495981572*^9, 3.7611275742000694`*^9}, 
+   3.761129177241043*^9},ExpressionUUID->"1da80fee-05cf-443c-8cad-\
+fc2cd5039f38"],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.7611275894213037`*^9, 
+  3.7611275915249643`*^9}},ExpressionUUID->"ba94e010-6b90-4c2a-8d7c-\
+b63bc8d48acf"],
+
+Cell["\<\
+b. Suppose that immigration increases the labor force by 10 percent. What \
+happens to total output (in percent)? The rental price of capital? The real \
+wage?\
+\>", "Text",
+ CellChangeTimes->{{3.7611275894213037`*^9, 3.761127637308567*^9}, {
+  3.761129773066832*^9, 
+  3.761129773066832*^9}},ExpressionUUID->"48bafe30-ea53-406d-846d-\
+4650a55405b9"],
+
+Cell[TextData[{
+ "\t",
+ StyleBox["Total output:", "Subsubsection"]
+}], "Text",
+ CellChangeTimes->{{3.7611275894213037`*^9, 3.761127638308813*^9}, {
+  3.7611280729090843`*^9, 3.761128139619031*^9}, {3.7611297922855587`*^9, 
+  3.761129801326374*^9}},ExpressionUUID->"3f46df19-9e37-4c24-a020-\
+dab1b3d7a456"],
+
+Cell[TextData[{
+ "\tIf the labor force increases ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"10", "%"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "951b31aa-ab9d-4854-9bb5-1cadcd5ffd3f"],
+ ", the production can be calculated as follows:"
+}], "Text",
+ CellChangeTimes->{{3.7611275894213037`*^9, 3.761127638308813*^9}, {
+  3.7611280729090843`*^9, 3.761128139619031*^9}, {3.7611297922855587`*^9, 
+  3.761129813757563*^9}},ExpressionUUID->"5c6ab81f-f0eb-41cf-aa06-\
+ada79072f69b"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"F", "(", 
+    RowBox[{"K", ",", "L"}], ")"}], "=", 
+   RowBox[{
+    RowBox[{"A", " ", 
+     SuperscriptBox[
+      RowBox[{
+       SuperscriptBox["K", "0.3"], "(", 
+       RowBox[{"1.1", "L"}], ")"}], "0.7"]}], "=", 
+    RowBox[{
+     SuperscriptBox["1.1", "0.7"], "A", " ", 
+     SuperscriptBox["K", "0.3"], 
+     SuperscriptBox["L", "0.7"]}]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611275894213037`*^9, 3.761127638308813*^9}, {
+  3.7611280729090843`*^9, 
+  3.7611281773708878`*^9}},ExpressionUUID->"e4b091da-9baf-4c37-8f70-\
+354daf447520"],
+
+Cell["\thence the total output increases:", "Text",
+ CellChangeTimes->{{3.761128539519678*^9, 3.761128547712143*^9}, {
+   3.76112883033685*^9, 3.7611288426140575`*^9}, {3.7611289391147423`*^9, 
+   3.761128940680377*^9}, 
+   3.7611291712569127`*^9},ExpressionUUID->"ddb0fe2f-1479-4536-983a-\
+1636790c7b46"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     RowBox[{
+      SuperscriptBox["1.1", "0.7"], "A", " ", 
+      SuperscriptBox["K", "0.3"], 
+      SuperscriptBox["L", "0.7"]}], "-", 
+     RowBox[{"A", " ", 
+      SuperscriptBox["K", "0.3"], 
+      SuperscriptBox["L", "0.7"]}]}], 
+    RowBox[{"A", " ", 
+     SuperscriptBox["K", "0.3"], 
+     SuperscriptBox["L", "0.7"]}]], "=", 
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["1.1", "0.7"], "-", "1"}], "\[TildeTilde]", 
+    RowBox[{"6.899304491633296`", "%"}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.761128539519678*^9, 3.761128547712143*^9}, {
+  3.76112883033685*^9, 3.7611289289370146`*^9}, {3.7611289765247774`*^9, 
+  3.761128978007227*^9}},ExpressionUUID->"2145ce48-f2d0-4e18-a733-\
+316ab6a0a14b"],
+
+Cell[TextData[{
+ "\t",
+ StyleBox["Rental price:", "Subsubsection"]
+}], "Text",
+ CellChangeTimes->{{3.7611275894213037`*^9, 3.761127638308813*^9}, {
+  3.7611280729090843`*^9, 3.761128139619031*^9}, {3.7611297922855587`*^9, 
+  3.761129801326374*^9}, {3.761129853288583*^9, 
+  3.7611298572062044`*^9}},ExpressionUUID->"59dca9e5-ac7c-48a4-a826-\
+64da3a75c3e6"],
+
+Cell["\tThe original rental price is:", "Text",
+ CellChangeTimes->{{3.761128998025611*^9, 3.7611290114446907`*^9}, {
+  3.7611291397053595`*^9, 
+  3.761129173186668*^9}},ExpressionUUID->"71b4c969-1bc1-424d-927d-\
+932bea39f6eb"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox["p", "1"], "=", 
+   RowBox[{
+    FractionBox["R", "P"], "=", 
+    RowBox[{"MPK", "=", 
+     RowBox[{"0.3", "A", " ", 
+      SuperscriptBox["K", 
+       RowBox[{"-", "0.7"}]], " ", 
+      SuperscriptBox["L", "0.7"], " "}]}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.761129015211815*^9, 3.7611290271411467`*^9}, {
+  3.7611290995620265`*^9, 3.761129128020497*^9}, {3.761129224460188*^9, 
+  3.761129228645472*^9}, {3.761129632913656*^9, 
+  3.761129636977931*^9}},ExpressionUUID->"1c2f0d45-d4e4-4eb2-b673-\
+586371f9a8dd"],
+
+Cell["\tThe present rental price is", "Text",
+ CellChangeTimes->{{3.7611291560931177`*^9, 
+  3.7611291886189146`*^9}},ExpressionUUID->"fac6b659-5bad-49ec-92ec-\
+43944789b43c"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox["p", "2"], "=", 
+   RowBox[{
+    FractionBox["R", "P"], "=", 
+    RowBox[{"MPK", "=", 
+     RowBox[{"0.3", "A", " ", 
+      SuperscriptBox["K", 
+       RowBox[{"-", "0.7"}]], " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"1.1", "L"}], ")"}], "0.7"], " "}]}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611291560931177`*^9, 3.7611292337661953`*^9}, {
+  3.761129639341257*^9, 
+  3.761129643476739*^9}},ExpressionUUID->"bc2e4b04-349f-4788-bb71-\
+61746f2ab327"],
+
+Cell["\thence the rental price increases:", "Text",
+ CellChangeTimes->{{3.7611296635059524`*^9, 
+  3.761129678413312*^9}},ExpressionUUID->"350eac6d-70ea-4006-bca4-\
+f3d4eabd1c97"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SubscriptBox["p", "2"], "-", 
+     SubscriptBox["p", "1"]}], 
+    SubscriptBox["p", "1"]], "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      RowBox[{"0.3", "A", " ", 
+       SuperscriptBox["K", 
+        RowBox[{"-", "0.7"}]], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"1.1", "L"}], ")"}], "0.7"]}], " ", "-", 
+      RowBox[{"0.3", "A", " ", 
+       SuperscriptBox["K", 
+        RowBox[{"-", "0.7"}]], " ", 
+       SuperscriptBox["L", "0.7"]}]}], 
+     RowBox[{"0.3", "A", " ", 
+      SuperscriptBox["K", 
+       RowBox[{"-", "0.7"}]], " ", 
+      SuperscriptBox["L", "0.7"]}]], "=", 
+    RowBox[{"6.899304491633296`", "%"}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611296635059524`*^9, 
+  3.7611297204511538`*^9}},ExpressionUUID->"bc72ad93-6207-4cf1-b8f5-\
+63a51af45ba1"],
+
+Cell[TextData[{
+ "\t",
+ StyleBox["Real wage:", "Subsubsection"]
+}], "Text",
+ CellChangeTimes->{{3.7611275894213037`*^9, 3.761127638308813*^9}, {
+  3.7611280729090843`*^9, 3.761128139619031*^9}, {3.7611297922855587`*^9, 
+  3.761129801326374*^9}, {3.761129853288583*^9, 3.7611298572062044`*^9}, {
+  3.761129939041607*^9, 
+  3.761129946007487*^9}},ExpressionUUID->"71f14474-0689-448e-a38f-\
+e15d2fb904a3"],
+
+Cell["\tThe original real wage is:", "Text",
+ CellChangeTimes->{{3.761128998025611*^9, 3.7611290114446907`*^9}, {
+  3.7611291397053595`*^9, 3.761129173186668*^9}, {3.7611300000586214`*^9, 
+  3.7611300164812555`*^9}},ExpressionUUID->"1030faa5-8c3a-4d80-9d9d-\
+ca97d6a4ffac"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox["w", "1"], "=", 
+   RowBox[{"MPL", "=", 
+    RowBox[{"0.7", "A", " ", 
+     SuperscriptBox["K", "0.3"], 
+     SuperscriptBox["L", 
+      RowBox[{"-", "0.3"}]]}]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.761128998025611*^9, 3.7611290114446907`*^9}, {
+  3.7611291397053595`*^9, 3.761129173186668*^9}, {3.7611300000586214`*^9, 
+  3.7611300482541494`*^9}},ExpressionUUID->"bf9f9c98-c7a1-4915-9812-\
+a11eb1b96cf1"],
+
+Cell["\tThe present real wage is:", "Text",
+ CellChangeTimes->{{3.7611300564240522`*^9, 
+  3.7611300689689727`*^9}},ExpressionUUID->"941cd010-4297-4676-b7dc-\
+25f34e957bcc"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox["w", "2"], "=", 
+   RowBox[{"0.7", "A", " ", 
+    SuperscriptBox[
+     RowBox[{
+      SuperscriptBox["K", "0.3"], "(", 
+      RowBox[{"1.1", "L"}], ")"}], 
+     RowBox[{"-", "0.3"}]]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611300564240522`*^9, 3.7611300722648773`*^9}, {
+  3.7611304250401597`*^9, 
+  3.761130475626001*^9}},ExpressionUUID->"5fa7b79e-07f5-474d-94be-\
+89f38b060267"],
+
+Cell["\then the real wage decreases:", "Text",
+ CellChangeTimes->{{3.7611304780365543`*^9, 
+  3.7611304912377615`*^9}},ExpressionUUID->"d3f11a4f-daa6-4be7-b6f3-\
+29eefeb63f0a"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SubscriptBox["w", "2"], "-", 
+     SubscriptBox["w", "1"]}], 
+    SubscriptBox["w", "1"]], "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      RowBox[{"0.7", " ", "A", " ", 
+       SuperscriptBox[
+        RowBox[{
+         SuperscriptBox["K", "0.3"], "(", 
+         RowBox[{"1.1", "L"}], ")"}], 
+        RowBox[{"-", "0.3"}]]}], "-", 
+      RowBox[{"0.7", "A", " ", 
+       SuperscriptBox["K", "0.3"], 
+       SuperscriptBox["L", 
+        RowBox[{"-", "0.3"}]]}]}], 
+     RowBox[{"0.7", "A", " ", 
+      SuperscriptBox["K", "0.3"], 
+      SuperscriptBox["L", 
+       RowBox[{"-", "0.3"}]]}]], "=", 
+    RowBox[{
+     RowBox[{"-", "2.8188140985151877`"}], "%"}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611304780365543`*^9, 3.7611305781165752`*^9}, 
+   3.7611306205652556`*^9},ExpressionUUID->"6e3dc790-181e-4082-8080-\
+a98fc507db86"],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.7611305865312676`*^9, 
+  3.76113058782121*^9}},ExpressionUUID->"f59c1d25-23ed-453f-b1f1-\
+6325a36d6035"],
+
+Cell["\<\
+c. Suppose that a gift of capital from abroad raises the capital stock by 10 \
+percent. What happens to total output (in percent)? The rental price of \
+capital? The real wage?\
+\>", "Text",
+ CellChangeTimes->{{3.7611305865312676`*^9, 3.7611305910770025`*^9}, {
+  3.761130623029832*^9, 3.761130633328503*^9}, {3.761130847538808*^9, 
+  3.761130847538808*^9}},ExpressionUUID->"c0fe32a9-69d4-4aaf-aae9-\
+1b78b2b70534"],
+
+Cell["\tSimilar to previous question, the total out put increases:", "Text",
+ CellChangeTimes->{{3.7611305865312676`*^9, 3.7611305910770025`*^9}, {
+   3.761130623029832*^9, 3.761130633328503*^9}, 3.761130848240714*^9, {
+   3.7611308938797274`*^9, 3.7611309434868565`*^9}, {3.7611309811552596`*^9, 
+   3.761130991274908*^9}, 
+   3.7611310861161003`*^9},ExpressionUUID->"18524b70-4f7f-447a-8172-\
+507b3a566bf3"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     RowBox[{
+      SuperscriptBox[
+       RowBox[{"A", "(", 
+        RowBox[{"1.1", "K"}], ")"}], "0.3"], 
+      SuperscriptBox["L", "0.7"]}], "-", 
+     RowBox[{"A", " ", 
+      SuperscriptBox["K", "0.3"], 
+      SuperscriptBox["L", "0.7"]}]}], 
+    RowBox[{"A", " ", 
+     SuperscriptBox["K", "0.3"], 
+     SuperscriptBox["L", "0.7"]}]], "=", 
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["1.1", "0.3"], "-", "1"}], "=", 
+    RowBox[{"2.9005759421095068`", "%"}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611305865312676`*^9, 3.7611305910770025`*^9}, {
+   3.761130623029832*^9, 3.761130633328503*^9}, 3.761130848240714*^9, {
+   3.7611308938797274`*^9, 3.7611309434868565`*^9}, {3.7611309811552596`*^9, 
+   3.761131061970972*^9}},ExpressionUUID->"620ee8cf-9880-4ff2-983a-\
+3bc5bb5ccae2"],
+
+Cell["\tThe rental price decreases:", "Text",
+ CellChangeTimes->{{3.7611310668665504`*^9, 3.76113108906491*^9}, {
+  3.7611312848528013`*^9, 
+  3.7611312858170977`*^9}},ExpressionUUID->"fb59ca10-f722-4156-9938-\
+e8246c60d1d3"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["1.1", 
+      RowBox[{"-", "0.7"}]], "-", "1"}], "1"], "=", 
+   RowBox[{
+    RowBox[{"-", "6.454021870809545`"}], "%"}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611310668665504`*^9, 3.761131105882259*^9}, {
+  3.761131240918251*^9, 
+  3.761131288271902*^9}},ExpressionUUID->"e26c6925-74f7-4752-8deb-\
+f77790b2f710"],
+
+Cell["\tThe real wage increase 2.90058%", "Text",
+ CellChangeTimes->{{3.7611312904335303`*^9, 3.761131307935264*^9}, {
+  3.7611313802235365`*^9, 
+  3.7611313802235365`*^9}},ExpressionUUID->"53bd8aed-aa26-4e89-b10d-\
+02e5b6403d13"],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.7611312904335303`*^9, 
+  3.761131307935264*^9}},ExpressionUUID->"70e266e7-b865-4133-889e-\
+da8bf2f47d47"],
+
+Cell["\<\
+d. Suppose that a technological advance raises the value of the parameter A \
+by 10 percent. What happens to total output (in percent)? The rental price of \
+capital? The real wage?\
+\>", "Text",
+ CellChangeTimes->{{3.7611313299908237`*^9, 3.761131396547661*^9}, {
+  3.761131448162094*^9, 
+  3.761131448162094*^9}},ExpressionUUID->"d80c29a9-06a0-4873-8929-\
+67a471c34c88"],
+
+Cell["\tThe total output increase:", "Text",
+ CellChangeTimes->{{3.7611313299908237`*^9, 3.761131396547661*^9}, {
+  3.76113144968799*^9, 
+  3.7611314683733644`*^9}},ExpressionUUID->"70350ab7-a69b-4557-a36e-\
+1ad3ac166c5a"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1.1", "A"}], ")"}], 
+      SuperscriptBox["K", "0.3"], 
+      SuperscriptBox["L", "0.7"]}], "-", 
+     RowBox[{"A", 
+      SuperscriptBox["K", "0.3"], 
+      SuperscriptBox["L", "0.7"]}]}], 
+    RowBox[{"A", 
+     SuperscriptBox["K", "0.3"], 
+     SuperscriptBox["L", "0.7"]}]], "=", 
+   RowBox[{"10", "%"}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611313299908237`*^9, 
+  3.76113143147263*^9}},ExpressionUUID->"b332db6c-e7dc-4581-91fb-\
+9f6171624901"],
+
+Cell["\tThe rental price increases:", "Text",
+ CellChangeTimes->{{3.7611313299908237`*^9, 3.7611313960251193`*^9}, {
+  3.761131507267502*^9, 
+  3.7611315340137043`*^9}},ExpressionUUID->"436245cd-6bd7-4554-85b6-\
+382e16718fce"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     RowBox[{"0.3", 
+      RowBox[{"(", 
+       RowBox[{"1.1", "A"}], ")"}], " ", 
+      SuperscriptBox["K", 
+       RowBox[{"-", "0.7"}]], " ", 
+      SuperscriptBox["L", "0.7"]}], " ", "-", 
+     RowBox[{"0.3", "A", " ", 
+      SuperscriptBox["K", 
+       RowBox[{"-", "0.7"}]], " ", 
+      SuperscriptBox["L", "0.7"]}]}], 
+    RowBox[{"0.3", "A", " ", 
+     SuperscriptBox["K", 
+      RowBox[{"-", "0.7"}]], " ", 
+     SuperscriptBox["L", "0.7"]}]], "=", 
+   RowBox[{"10", "%"}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611313299908237`*^9, 3.7611313960251193`*^9}, {
+  3.761131507267502*^9, 
+  3.7611315863024707`*^9}},ExpressionUUID->"17593737-d124-493a-a317-\
+87b31b82fc09"],
+
+Cell["\<\
+
+\tThe real wage increase:\
+\>", "Text",
+ CellChangeTimes->{{3.7611313299908237`*^9, 3.7611313960251193`*^9}, {
+  3.761131507267502*^9, 3.761131508973875*^9}, {3.761131597040515*^9, 
+  3.761131597705881*^9}},ExpressionUUID->"acc959cd-c8cb-4fa3-a186-\
+b72072f5a434"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     RowBox[{"0.7", " ", 
+      RowBox[{"(", 
+       RowBox[{"1.1", "A"}], ")"}], " ", 
+      SuperscriptBox["K", "0.3"], 
+      SuperscriptBox["L", 
+       RowBox[{"-", "0.3"}]]}], "-", 
+     RowBox[{"0.7", "A", " ", 
+      SuperscriptBox["K", "0.3"], 
+      SuperscriptBox["L", 
+       RowBox[{"-", "0.3"}]]}]}], 
+    RowBox[{"0.7", "A", " ", 
+     SuperscriptBox["K", "0.3"], 
+     SuperscriptBox["L", 
+      RowBox[{"-", "0.3"}]]}]], "=", 
+   RowBox[{"10", "%"}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7611313299908237`*^9, 3.7611313960251193`*^9}, {
+  3.761131507267502*^9, 3.761131508973875*^9}, {3.761131597040515*^9, 
+  3.761131619787485*^9}},ExpressionUUID->"170c76c0-fc40-47da-9324-\
+64f4a6d4e61f"]
+}, Open  ]]
+},
+WindowSize->{1616, 2037},
+WindowMargins->{{Automatic, -14}, {Automatic, 0}},
+PrintingPageRange->{Automatic, Automatic},
+Magnification:>3. Inherited,
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (2018\:5e743\:670828\
+\:65e5)",
+StyleDefinitions->FrontEnd`FileName[{"Article"}, "JournalArticle.nb", 
+  CharacterEncoding -> "UTF-8"],
+PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 266, 5, 343, "Title",ExpressionUUID->"f40f2dd1-7782-4ad2-ae58-842da7773a90",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[849, 29, 244, 4, 190, "Author",ExpressionUUID->"717e2a8d-c214-4637-bcf4-c24ddffeead9",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[1096, 35, 239, 4, 61, "Institution",ExpressionUUID->"555ce930-e32c-478a-98a0-694e655d6695",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[1338, 41, 513, 8, 211, "AbstractSection",ExpressionUUID->"04963c82-2998-45e8-937c-e16740860a05",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[1854, 51, 483, 8, 117, "Date",ExpressionUUID->"b5d84ac4-5c20-4cf9-bb54-22a00e0dad96",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
+}, Open  ]],
+Cell[2352, 62, 342, 7, 189, "Subsubsubsection",ExpressionUUID->"6f5a7cc0-0879-4b8a-a665-c169acf7cc5f"],
+Cell[2697, 71, 173, 2, 89, "Subsubsubsection",ExpressionUUID->"0c4b8ded-20d4-47ab-b6da-508bd52a48fc"],
+Cell[CellGroupData[{
+Cell[2895, 77, 177, 2, 89, "Subsubsubsection",ExpressionUUID->"b52196da-3b6a-492c-8ccc-d8b084a74435"],
+Cell[3075, 81, 497, 12, 173, "Text",ExpressionUUID->"cab81175-8809-4b86-910f-33e08b9e6354"],
+Cell[3575, 95, 163, 2, 98, "Text",ExpressionUUID->"35d7e642-6039-4141-9d3d-55bfc3372951"],
+Cell[3741, 99, 320, 4, 98, "Text",ExpressionUUID->"f5a42db1-cdb6-4bc0-aae5-ab52219e6ac4"],
+Cell[4064, 105, 471, 11, 173, "Text",ExpressionUUID->"370f6a0f-0900-415c-bafc-9922d56cdd1a"],
+Cell[4538, 118, 409, 11, 128, "EquationNumbered",ExpressionUUID->"d5b1afec-bec1-4f0c-ba7f-a27f25b4dd26"],
+Cell[4950, 131, 567, 17, 173, "Text",ExpressionUUID->"1da80fee-05cf-443c-8cad-fc2cd5039f38"],
+Cell[5520, 150, 146, 3, 98, "Text",ExpressionUUID->"ba94e010-6b90-4c2a-8d7c-b63bc8d48acf"],
+Cell[5669, 155, 360, 8, 247, "Text",ExpressionUUID->"48bafe30-ea53-406d-846d-4650a55405b9"],
+Cell[6032, 165, 305, 7, 109, "Text",ExpressionUUID->"3f46df19-9e37-4c24-a020-dab1b3d7a456"],
+Cell[6340, 174, 501, 12, 173, "Text",ExpressionUUID->"5c6ab81f-f0eb-41cf-aa06-ada79072f69b"],
+Cell[6844, 188, 614, 18, 128, "EquationNumbered",ExpressionUUID->"e4b091da-9baf-4c37-8f70-354daf447520"],
+Cell[7461, 208, 305, 5, 98, "Text",ExpressionUUID->"ddb0fe2f-1479-4536-983a-1636790c7b46"],
+Cell[7769, 215, 799, 23, 206, "EquationNumbered",ExpressionUUID->"2145ce48-f2d0-4e18-a733-316ab6a0a14b"],
+Cell[8571, 240, 356, 8, 109, "Text",ExpressionUUID->"59dca9e5-ac7c-48a4-a826-64da3a75c3e6"],
+Cell[8930, 250, 226, 4, 98, "Text",ExpressionUUID->"71b4c969-1bc1-424d-927d-932bea39f6eb"],
+Cell[9159, 256, 594, 16, 189, "EquationNumbered",ExpressionUUID->"1c2f0d45-d4e4-4eb2-b673-586371f9a8dd"],
+Cell[9756, 274, 175, 3, 98, "Text",ExpressionUUID->"fac6b659-5bad-49ec-92ec-43944789b43c"],
+Cell[9934, 279, 553, 17, 189, "EquationNumbered",ExpressionUUID->"bc2e4b04-349f-4788-bb71-61746f2ab327"],
+Cell[10490, 298, 179, 3, 98, "Text",ExpressionUUID->"350eac6d-70ea-4006-bca4-f3d4eabd1c97"],
+Cell[10672, 303, 900, 29, 361, "EquationNumbered",ExpressionUUID->"bc72ad93-6207-4cf1-b8f5-63a51af45ba1"],
+Cell[11575, 334, 402, 9, 109, "Text",ExpressionUUID->"71f14474-0689-448e-a38f-e15d2fb904a3"],
+Cell[11980, 345, 273, 4, 98, "Text",ExpressionUUID->"1030faa5-8c3a-4d80-9d9d-ca97d6a4ffac"],
+Cell[12256, 351, 484, 12, 128, "EquationNumbered",ExpressionUUID->"bf9f9c98-c7a1-4915-9812-a11eb1b96cf1"],
+Cell[12743, 365, 173, 3, 98, "Text",ExpressionUUID->"941cd010-4297-4676-b7dc-25f34e957bcc"],
+Cell[12919, 370, 458, 13, 128, "EquationNumbered",ExpressionUUID->"5fa7b79e-07f5-474d-94be-89f38b060267"],
+Cell[13380, 385, 176, 3, 98, "Text",ExpressionUUID->"d3f11a4f-daa6-4be7-b6f3-29eefeb63f0a"],
+Cell[13559, 390, 934, 30, 359, "EquationNumbered",ExpressionUUID->"6e3dc790-181e-4082-8080-a98fc507db86"],
+Cell[14496, 422, 143, 3, 98, "Text",ExpressionUUID->"f59c1d25-23ed-453f-b1f1-6325a36d6035"],
+Cell[14642, 427, 425, 8, 247, "Text",ExpressionUUID->"c0fe32a9-69d4-4aaf-aae9-1b78b2b70534"],
+Cell[15070, 437, 409, 6, 98, "Text",ExpressionUUID->"18524b70-4f7f-447a-8172-507b3a566bf3"],
+Cell[15482, 445, 881, 25, 206, "EquationNumbered",ExpressionUUID->"620ee8cf-9880-4ff2-983a-3bc5bb5ccae2"],
+Cell[16366, 472, 225, 4, 98, "Text",ExpressionUUID->"fb59ca10-f722-4156-9938-e8246c60d1d3"],
+Cell[16594, 478, 425, 13, 200, "EquationNumbered",ExpressionUUID->"e26c6925-74f7-4752-8deb-f77790b2f710"],
+Cell[17022, 493, 230, 4, 98, "Text",ExpressionUUID->"53bd8aed-aa26-4e89-b10d-02e5b6403d13"],
+Cell[17255, 499, 144, 3, 98, "Text",ExpressionUUID->"70e266e7-b865-4133-889e-da8bf2f47d47"],
+Cell[17402, 504, 382, 8, 247, "Text",ExpressionUUID->"d80c29a9-06a0-4873-8929-67a471c34c88"],
+Cell[17787, 514, 222, 4, 98, "Text",ExpressionUUID->"70350ab7-a69b-4557-a36e-1ad3ac166c5a"],
+Cell[18012, 520, 590, 19, 206, "EquationNumbered",ExpressionUUID->"b332db6c-e7dc-4581-91fb-9f6171624901"],
+Cell[18605, 541, 226, 4, 98, "Text",ExpressionUUID->"436245cd-6bd7-4554-85b6-382e16718fce"],
+Cell[18834, 547, 768, 23, 206, "EquationNumbered",ExpressionUUID->"17593737-d124-493a-a317-87b31b82fc09"],
+Cell[19605, 572, 275, 7, 173, "Text",ExpressionUUID->"acc959cd-c8cb-4fa3-a186-b72072f5a434"],
+Cell[19883, 581, 797, 23, 206, "EquationNumbered",ExpressionUUID->"170c76c0-fc40-47da-9324-64f4a6d4e61f"]
+}, Open  ]]
+}
+]
+*)
+
