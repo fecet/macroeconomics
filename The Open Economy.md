@@ -39,13 +39,37 @@ Recall that $Y-C-G$ is national saving $S$:
 $$
 S-I=NX
 $$
-$NX$ is also called as **trade balance**, and $S-I$ is **net capital outflow**. Depending on $S-I$, we
+$NX​$ is also called as **trade balance**, and $S-I​$ is **net capital outflow**. Depending on $S-I​$, we
 
 - trade surplus if it’s positive
 - trade deficit if it’s negative
 - balance trade if it’s zero
 
+Consider a **small open economy**, the interest rate in which must equal to the **world interest rate** $r^*$:
+$$
+r=r^*
+$$
+Now we build the model of the small open economy, we take three assumptions:
+
+- $Y=\overline{Y}=F(\overline{K}, \overline{L})$
+
+- $C=C(Y-T)$
+
+- $I=I(r)$
+
+Therefore, we obtain:
+$$
+NX=\overline{S}-I(r^*)
+$$
 
 
- 
+The **nominal exchange rate** is the relative price of the currencies of two countries.
+
+A rise in the exchange rate—say, from 80 to 100 yen per dollar—is called an **appreciation** of the dollar; a fall in the exchange rate is called a **depreciation**. When the domestic currency appreciates, it buys more of the foreign currency; when it depreciates, it buys less. An appreciation is sometimes called a **strengthening** of the currency, and a depreciation is sometimes called a **weakening** of the currency.
+
+ The **real exchange rate** is the relative price of the goods of two countries.
+$$
+\epsilon \quad=\quad e \quad \times \quad\left(P / P^{*}\right)
+$$
+
 
