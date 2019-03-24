@@ -1,0 +1,51 @@
+#### The Open Economy
+
+> No nation was ever ruined by trade.
+
+In a closed economy, all output is sold domestically, and expenditure is divided into three components: consumption, investment, and government purchases. In an open economy, it also includes exports.
+
+- $C^d$, consumption of domestic g&s
+- $I^d$, investment of domestic g&s
+- $G^d$, government purchases of domestic g&v
+- $X$, exports of domestic g&s
+
+We have a identity:
+$$
+Y=C^{d}+I^{d}+G^{d}+X
+$$
+Where the first 3 terms is domestic spending on domestic g&s and the last term is foreign spending on domestic g&s.
+
+Note:
+$$
+\begin{aligned} C &=C^{d}+C^{f} \\ I &=I^{d}+I^{f} \\ G &=G^{d}+G^{f} \end{aligned}
+$$
+We substitute these three equations into the identity above:
+$$
+Y=\left(C-C^{f}\right)+\left(I-f^{f}\right)+\left(G-G^{f}\right)+X
+$$
+The sum of domestic spending on foreign g&s $\left(C^{f}+I^{f}+G^{f}\right)$ is expenditure on imports $IM$.
+$$
+Y=C+I+G+X-I M
+$$
+Defining **net exports** to be $X-IM$, the identity becomes
+$$
+Y=C+I+G+NX
+$$
+Subtract $C$ and $G$ from both sides to obtain:
+$$
+Y-C-G=I+N X
+$$
+Recall that $Y-C-G$ is national saving $S$:
+$$
+S-I=NX
+$$
+$NX$ is also called as **trade balance**, and $S-I$ is **net capital outflow**. Depending on $S-I$, we
+
+- trade surplus if it’s positive
+- trade deficit if it’s negative
+- balance trade if it’s zero
+
+
+
+ 
+
