@@ -72,4 +72,29 @@ $$
 \epsilon \quad=\quad e \quad \times \quad\left(P / P^{*}\right)
 $$
 
+Note real exchange rate is nothing more than relative price. The lower the rate, the more the people will purchase fewer imported goods, which result in high $EX$.
+
+The relationship can be described as:
+$$
+NX=NX(\epsilon)
+$$
+Turn attention back to nominal exchange rate, which is:
+$$
+e=\epsilon \frac{P^*}{P}
+$$
+Hence:
+$$
+\%\text{Change in } e=\%\text{Change in } \epsilon+\%\text{Change in } {P^*}-\%\text{Change in } P
+$$
+The percentage change in $P$ is the domestic inflation $\pi$.
+$$
+\%\text{Change in } e=\%\text{Change in } \epsilon+\pi^*-\pi
+$$
+
+
+> Law of one price:
+>
+> The same good cannot sell for different location at the same time.
+
+The law of one price applied on the international marketplace is called **purchasing-power parity**.
 
