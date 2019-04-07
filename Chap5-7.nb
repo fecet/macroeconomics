@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     10204,        269]
-NotebookOptionsPosition[      8008,        229]
-NotebookOutlinePosition[      8467,        247]
-CellTagsIndexPosition[      8424,        244]
+NotebookDataLength[     15053,        388]
+NotebookOptionsPosition[     12002,        339]
+NotebookOutlinePosition[     12461,        357]
+CellTagsIndexPosition[     12418,        354]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -213,18 +213,128 @@ Cell[TextData[{
   FormatType->"TraditionalForm",ExpressionUUID->
   "2974fbd6-aa6e-4061-b164-c00bcd2bee71"],
  ".",
- StyleBox["\nd. Suppose, instead of a constant money demand function, the \
+ StyleBox["\n",
+  FontSlant->"Plain"],
+ StyleBox["d. Suppose, instead of a constant money demand function, the \
 velocity of money in this economy was growing steadily because of financial \
-innovation. How would that affect\nthe inflation rate? Explain.",
-  FontSlant->"Plain"]
+innovation. How would that affect the inflation rate? Explain.",
+  FontSlant->"Plain",
+  FontColor->RGBColor[0, 0, 1]]
 }], "Text",
  CellChangeTimes->{{3.7635957519151134`*^9, 3.7635957676484594`*^9}, 
    3.7635973270574474`*^9, {3.763597737348418*^9, 3.7635978151060066`*^9}, {
-   3.763597879492181*^9, 
-   3.7635979011953754`*^9}},ExpressionUUID->"804d6ce9-c300-451c-b15f-\
+   3.763597879492181*^9, 3.7635979011953754`*^9}, {3.763598131263435*^9, 
+   3.7635981323253613`*^9}},ExpressionUUID->"804d6ce9-c300-451c-b15f-\
 3cc131c5c848"],
 
-Cell["", "Text",ExpressionUUID->"a5242d78-3fcf-4626-9dc9-199befa5d664"]
+Cell[TextData[{
+ "\tBecause of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"k", "=", 
+    FractionBox["1", "v"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "63c44e17-ac89-41c6-9048-38cd36531cab"],
+ ", ",
+ Cell[BoxData[
+  FormBox["k", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "27077b8d-c7a4-4bb3-9d5c-3fad474a5380"],
+ " decreases, recall that"
+}], "Text",
+ CellChangeTimes->{{3.763597928437999*^9, 3.763597929482066*^9}, {
+  3.763598137402629*^9, 3.7635982680640626`*^9}, {3.763598382332683*^9, 
+  3.7635983998269114`*^9}, {3.763598597495495*^9, 
+  3.7635986566882496`*^9}},ExpressionUUID->"dd8a2216-4673-41b2-b88c-\
+7a1de814454d"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{"\[DifferentialD]", "P"}], "P"], "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{"\[DifferentialD]", "M"}], "M"], "-", 
+    FractionBox[
+     RowBox[{"\[DifferentialD]", "k"}], "k"], "-", 
+    FractionBox[
+     RowBox[{"\[DifferentialD]", "Y"}], "Y"]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7635964304133883`*^9, 3.763596442425682*^9}, {
+  3.763596633990073*^9, 3.763596660774122*^9}, {3.76359867766595*^9, 
+  3.763598696624324*^9}},ExpressionUUID->"2e613e20-9c7f-42a8-80bf-\
+6c06a85145d8"],
+
+Cell["\tso P increase.", "Text",
+ CellChangeTimes->{{3.7635987176182337`*^9, 3.7635987284042983`*^9}, {
+  3.763598808349865*^9, 
+  3.763598845556795*^9}},ExpressionUUID->"a5242d78-3fcf-4626-9dc9-\
+199befa5d664"],
+
+Cell["", "Text",ExpressionUUID->"dad7bf06-f370-4182-be23-e721b7b978fc"],
+
+Cell[TextData[{
+ StyleBox["An economy has the following money demand function: ", 
+  "Subsubsubsection"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"M", "/", "P"}], " ", ")"}], "d"], "=", " ", 
+    RowBox[{".2", 
+     RowBox[{"Y", "/", 
+      SuperscriptBox["i", "\.bd"], " "}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "7a0cff4f-40ac-4bd5-9ed9-4fee30ebe5eb"],
+ StyleBox[". ", "Subsubsubsection"]
+}], "Text",
+ CellChangeTimes->{{3.7635988773597527`*^9, 
+  3.763598932615493*^9}},ExpressionUUID->"1fc5db8c-61d0-4739-a00c-\
+d16ffdd1cb07"],
+
+Cell[TextData[StyleBox["a. Derive an expression for the velocity of money. \
+What does velocity depend on? Explain why this dependency may occur.", \
+"Equation",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
+ CellChangeTimes->{{3.7635988773597527`*^9, 3.7635989138277493`*^9}, 
+   3.7635989530728197`*^9},ExpressionUUID->"6309498f-41ff-4875-805c-\
+8de21236f10d"],
+
+Cell["\t", "Text",
+ CellChangeTimes->{
+  3.7635989582310085`*^9},ExpressionUUID->"f44d54f9-4249-4e71-9dc6-\
+2625e7fb806d"],
+
+Cell["\<\
+b. Calculate velocity if the nominal interest rate i is 4 percent.
+c. If output Y is 1,000 units and the money
+supply M is $1,200, what is the price level P ?\
+\>", "Text",
+ CellChangeTimes->{{3.7635988773597527`*^9, 3.7635989138277493`*^9}, {
+  3.76359898649542*^9, 
+  3.763598986498418*^9}},ExpressionUUID->"a570829b-df44-4165-a008-\
+908c1b4fcc4a"],
+
+Cell["\<\
+d. Suppose the announcement of a new head of the central bank, with a \
+reputation of being soft on inflation, increases expected inflation by 5 \
+percentage points. According to the Fisher effect, what is the new nominal \
+interest rate?
+e. Calculate the new velocity of money. f. If, in the aftermath of the \
+announcement, both the economy\[CloseCurlyQuote]s output and the current \
+money supply are unchanged, what happens to the price level? Explain why this \
+occurs.
+g. If the new central banker wants to keep the price level the same after the \
+announcement, at what level should she set the money supply?\
+\>", "Text",
+ CellChangeTimes->{{3.7635988773597527`*^9, 3.7635989138277493`*^9}, 
+   3.7635989876330757`*^9, {3.7635990183489847`*^9, 
+   3.763599019178547*^9}},ExpressionUUID->"8f8781c6-e5ff-4350-b42a-\
+36aed2f69b79"],
+
+Cell["", "Text",ExpressionUUID->"2d4c46f6-326a-4bfc-9123-5c043626e8ee"]
 }, Open  ]]
 },
 WindowSize->{1616, 2037},
@@ -268,8 +378,17 @@ Cell[5662, 163, 301, 9, 125, "EquationNumbered",ExpressionUUID->"d4459af0-5068-4
 Cell[5966, 174, 350, 7, 173, "Text",ExpressionUUID->"08259f71-f8cb-465a-ad1a-24fa6d150cbf"],
 Cell[6319, 183, 240, 6, 173, "Text",ExpressionUUID->"3149954d-279b-4fb1-9fa5-01da5e4fce1d"],
 Cell[6562, 191, 388, 7, 173, "Text",ExpressionUUID->"5981dd2e-bbeb-4e3a-96e3-ee8060a37703"],
-Cell[6953, 200, 965, 24, 498, "Text",ExpressionUUID->"804d6ce9-c300-451c-b15f-3cc131c5c848"],
-Cell[7921, 226, 71, 0, 98, "Text",ExpressionUUID->"a5242d78-3fcf-4626-9dc9-199befa5d664"]
+Cell[6953, 200, 1081, 27, 498, "Text",ExpressionUUID->"804d6ce9-c300-451c-b15f-3cc131c5c848"],
+Cell[8037, 229, 684, 19, 125, "Text",ExpressionUUID->"dd8a2216-4673-41b2-b88c-7a1de814454d"],
+Cell[8724, 250, 582, 16, 191, "EquationNumbered",ExpressionUUID->"2e613e20-9c7f-42a8-80bf-6c06a85145d8"],
+Cell[9309, 268, 211, 4, 98, "Text",ExpressionUUID->"a5242d78-3fcf-4626-9dc9-199befa5d664"],
+Cell[9523, 274, 71, 0, 98, "Text",ExpressionUUID->"dad7bf06-f370-4182-be23-e721b7b978fc"],
+Cell[9597, 276, 618, 18, 199, "Text",ExpressionUUID->"1fc5db8c-61d0-4739-a00c-d16ffdd1cb07"],
+Cell[10218, 296, 357, 6, 173, "Text",ExpressionUUID->"6309498f-41ff-4875-805c-8de21236f10d"],
+Cell[10578, 304, 122, 3, 98, "Text",ExpressionUUID->"f44d54f9-4249-4e71-9dc6-2625e7fb806d"],
+Cell[10703, 309, 360, 8, 247, "Text",ExpressionUUID->"a570829b-df44-4165-a008-908c1b4fcc4a"],
+Cell[11066, 319, 846, 15, 843, "Text",ExpressionUUID->"8f8781c6-e5ff-4350-b42a-36aed2f69b79"],
+Cell[11915, 336, 71, 0, 98, "Text",ExpressionUUID->"2d4c46f6-326a-4bfc-9123-5c043626e8ee"]
 }, Open  ]]
 }
 ]
