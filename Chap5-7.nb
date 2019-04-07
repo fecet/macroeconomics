@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      9563,        248]
-NotebookOptionsPosition[      7368,        208]
-NotebookOutlinePosition[      7827,        226]
-CellTagsIndexPosition[      7784,        223]
+NotebookDataLength[     10204,        269]
+NotebookOptionsPosition[      8008,        229]
+NotebookOutlinePosition[      8467,        247]
+CellTagsIndexPosition[      8424,        244]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -79,7 +79,8 @@ year, and real income grows by 4 percent per year. "
 9c44a2f08cad"],
 
 Cell[TextData[StyleBox["a. What is the average inflation rate?",
- FontSlant->"Plain"]], "Text",
+ FontSlant->"Plain",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
  CellChangeTimes->{{3.7635957519151134`*^9, 3.763595763539995*^9}, {
   3.7635958417599945`*^9, 
   3.7635958417599945`*^9}},ExpressionUUID->"223f0614-a023-452a-910e-\
@@ -173,7 +174,8 @@ e3e99407595b"],
 
 Cell[TextData[StyleBox["b. How would inflation be different if real income \
 growth were higher? Explain.",
- FontSlant->"Plain"]], "Text",
+ FontSlant->"Plain",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
  CellChangeTimes->{{3.7635957519151134`*^9, 3.7635957676484594`*^9}, {
   3.7635973270574474`*^9, 
   3.763597335109128*^9}},ExpressionUUID->"08259f71-f8cb-465a-ad1a-\
@@ -189,18 +191,37 @@ be lower.\
 
 Cell[TextData[StyleBox["c. How do you interpret the parameter k? What is its \
 relationship to the velocity of money?",
- FontSlant->"Plain"]], "Text",
+ FontSlant->"Plain",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
  CellChangeTimes->{{3.7635957519151134`*^9, 3.7635957676484594`*^9}, 
    3.7635973270574474`*^9, {3.7635975902162695`*^9, 
    3.763597590218875*^9}},ExpressionUUID->"5981dd2e-bbeb-4e3a-96e3-\
 ee8060a37703"],
 
-Cell[TextData[StyleBox["\nd. Suppose, instead of a constant money demand \
-function, the velocity of money in this economy was growing steadily because \
-of financial innovation. How would that affect\nthe inflation rate? Explain.",
- FontSlant->"Plain"]], "Text",
+Cell[TextData[{
+ StyleBox["\tRecall that ",
+  FontSlant->"Plain"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"k", "=", 
+    FractionBox["1", "V"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "abb28415-d5c0-432a-9150-8575560079dc"],
+ ", so increase in speed leads to a decrease in ",
+ Cell[BoxData[
+  FormBox["k", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "2974fbd6-aa6e-4061-b164-c00bcd2bee71"],
+ ".",
+ StyleBox["\nd. Suppose, instead of a constant money demand function, the \
+velocity of money in this economy was growing steadily because of financial \
+innovation. How would that affect\nthe inflation rate? Explain.",
+  FontSlant->"Plain"]
+}], "Text",
  CellChangeTimes->{{3.7635957519151134`*^9, 3.7635957676484594`*^9}, 
-   3.7635973270574474`*^9},ExpressionUUID->"804d6ce9-c300-451c-b15f-\
+   3.7635973270574474`*^9, {3.763597737348418*^9, 3.7635978151060066`*^9}, {
+   3.763597879492181*^9, 
+   3.7635979011953754`*^9}},ExpressionUUID->"804d6ce9-c300-451c-b15f-\
 3cc131c5c848"],
 
 Cell["", "Text",ExpressionUUID->"a5242d78-3fcf-4626-9dc9-199befa5d664"]
@@ -239,20 +260,18 @@ Cell[1808, 50, 432, 7, 117, "Date",ExpressionUUID->"d72480c2-c164-4311-9b5f-859c
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[2277, 62, 695, 16, 374, "Subsubsubsection",ExpressionUUID->"3bac48c3-1d47-47ae-84c7-9c44a2f08cad"],
-Cell[2975, 80, 276, 5, 98, "Text",ExpressionUUID->"223f0614-a023-452a-910e-c562ef1e3d37"],
-Cell[3254, 87, 489, 15, 132, "Text",ExpressionUUID->"80f7ac6e-d08b-4e2c-999a-b421dd2a03d0"],
-Cell[3746, 104, 553, 17, 191, "EquationNumbered",ExpressionUUID->"e3aeab01-9a71-48c4-8d4a-541a50982a3f"],
-Cell[4302, 123, 1326, 37, 247, "Text",ExpressionUUID->"e068a952-52e2-4d57-8d5d-551dce1d0e6a"],
-Cell[5631, 162, 301, 9, 125, "EquationNumbered",ExpressionUUID->"d4459af0-5068-48e8-9bc1-e3e99407595b"],
-Cell[5935, 173, 319, 6, 173, "Text",ExpressionUUID->"08259f71-f8cb-465a-ad1a-24fa6d150cbf"],
-Cell[6257, 181, 240, 6, 173, "Text",ExpressionUUID->"3149954d-279b-4fb1-9fa5-01da5e4fce1d"],
-Cell[6500, 189, 357, 6, 173, "Text",ExpressionUUID->"5981dd2e-bbeb-4e3a-96e3-ee8060a37703"],
-Cell[6860, 197, 418, 6, 396, "Text",ExpressionUUID->"804d6ce9-c300-451c-b15f-3cc131c5c848"],
-Cell[7281, 205, 71, 0, 98, "Text",ExpressionUUID->"a5242d78-3fcf-4626-9dc9-199befa5d664"]
+Cell[2975, 80, 307, 6, 98, "Text",ExpressionUUID->"223f0614-a023-452a-910e-c562ef1e3d37"],
+Cell[3285, 88, 489, 15, 132, "Text",ExpressionUUID->"80f7ac6e-d08b-4e2c-999a-b421dd2a03d0"],
+Cell[3777, 105, 553, 17, 191, "EquationNumbered",ExpressionUUID->"e3aeab01-9a71-48c4-8d4a-541a50982a3f"],
+Cell[4333, 124, 1326, 37, 247, "Text",ExpressionUUID->"e068a952-52e2-4d57-8d5d-551dce1d0e6a"],
+Cell[5662, 163, 301, 9, 125, "EquationNumbered",ExpressionUUID->"d4459af0-5068-48e8-9bc1-e3e99407595b"],
+Cell[5966, 174, 350, 7, 173, "Text",ExpressionUUID->"08259f71-f8cb-465a-ad1a-24fa6d150cbf"],
+Cell[6319, 183, 240, 6, 173, "Text",ExpressionUUID->"3149954d-279b-4fb1-9fa5-01da5e4fce1d"],
+Cell[6562, 191, 388, 7, 173, "Text",ExpressionUUID->"5981dd2e-bbeb-4e3a-96e3-ee8060a37703"],
+Cell[6953, 200, 965, 24, 498, "Text",ExpressionUUID->"804d6ce9-c300-451c-b15f-3cc131c5c848"],
+Cell[7921, 226, 71, 0, 98, "Text",ExpressionUUID->"a5242d78-3fcf-4626-9dc9-199befa5d664"]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
