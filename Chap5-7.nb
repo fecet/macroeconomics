@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     15053,        388]
-NotebookOptionsPosition[     12002,        339]
-NotebookOutlinePosition[     12461,        357]
-CellTagsIndexPosition[     12418,        354]
+NotebookDataLength[     19458,        504]
+NotebookOptionsPosition[     15604,        447]
+NotebookOutlinePosition[     16063,        465]
+CellTagsIndexPosition[     16020,        462]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -286,8 +286,7 @@ Cell[TextData[{
     RowBox[{".2", 
      RowBox[{"Y", "/", 
       SuperscriptBox["i", "\.bd"], " "}]}]}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
-  "7a0cff4f-40ac-4bd5-9ed9-4fee30ebe5eb"],
+  ExpressionUUID->"7a0cff4f-40ac-4bd5-9ed9-4fee30ebe5eb"],
  StyleBox[". ", "Subsubsubsection"]
 }], "Text",
  CellChangeTimes->{{3.7635988773597527`*^9, 
@@ -302,20 +301,129 @@ What does velocity depend on? Explain why this dependency may occur.", \
    3.7635989530728197`*^9},ExpressionUUID->"6309498f-41ff-4875-805c-\
 8de21236f10d"],
 
-Cell["\t", "Text",
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{"M", "/", "P"}], " ", ")"}], "d"], "=", " ", 
+   RowBox[{"k", " ", "Y"}]}], TraditionalForm]], "EquationNumbered",
  CellChangeTimes->{
-  3.7635989582310085`*^9},ExpressionUUID->"f44d54f9-4249-4e71-9dc6-\
+  3.7635989582310085`*^9, {3.7635994669031982`*^9, 
+   3.7635994767381573`*^9}},ExpressionUUID->"f44d54f9-4249-4e71-9dc6-\
 2625e7fb806d"],
 
-Cell["\<\
-b. Calculate velocity if the nominal interest rate i is 4 percent.
-c. If output Y is 1,000 units and the money
-supply M is $1,200, what is the price level P ?\
-\>", "Text",
+Cell[BoxData[
+ FormBox[
+  RowBox[{"\t", 
+   RowBox[{
+    RowBox[{"Substitute", " ", Cell[TextData[Cell[BoxData[
+      FormBox[Cell[TextData[Cell[BoxData[
+        FormBox[
+         RowBox[{"V", "=", 
+          FractionBox["1", "k"]}], TraditionalForm]],
+        FormatType->"TraditionalForm",ExpressionUUID->
+        "67f1b9e1-d3a8-4a25-838a-db1488362fb9"]],ExpressionUUID->
+        "bbe1165d-1e93-4b95-b209-413056d5a9ff"], TraditionalForm]],
+      FormatType->"TraditionalForm",ExpressionUUID->
+      "dd1933f3-6b15-4402-881b-a90c11e79ca1"]],ExpressionUUID->
+      "22999e97-8c31-433a-9d17-b4b10716aa21"], "to", " ", "the", " ", 
+     "equation"}], ",", " "}]}], TraditionalForm]], "Text",
+ CellChangeTimes->{{3.763599490039174*^9, 
+  3.763599563659186*^9}},ExpressionUUID->"a36a17e6-dc66-43d6-b529-\
+6083dba34aef"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"V", "=", 
+   RowBox[{"5", 
+    SuperscriptBox["i", 
+     RowBox[{"1", "/", "2"}]]}]}], TextForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763599568671898*^9, 
+  3.7635995842010355`*^9}},ExpressionUUID->"200fc3c7-8ea6-4a6d-9286-\
+88cba8734a0e"],
+
+Cell["\tIn this case, velocity depends on no", "Text",
+ CellChangeTimes->{{3.7635996080265656`*^9, 
+  3.7635996273851585`*^9}},ExpressionUUID->"d616bd04-26d4-4244-8710-\
+0cb0f4484468"],
+
+Cell[TextData[StyleBox["b. Calculate velocity if the nominal interest rate i \
+is 4 percent.",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
  CellChangeTimes->{{3.7635988773597527`*^9, 3.7635989138277493`*^9}, {
-  3.76359898649542*^9, 
-  3.763598986498418*^9}},ExpressionUUID->"a570829b-df44-4165-a008-\
+   3.76359898649542*^9, 3.763598986498418*^9}, 
+   3.7635992257925177`*^9},ExpressionUUID->"a570829b-df44-4165-a008-\
 908c1b4fcc4a"],
+
+Cell[TextData[{
+ "\tWhen ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"i", "=", 
+    RowBox[{"4", "%"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "90a1bb81-6a6b-4c8a-805e-26d847cf5914"],
+ ","
+}], "Text",
+ CellChangeTimes->{{3.763622685256838*^9, 3.7636226852618246`*^9}, {
+  3.763622832097557*^9, 
+  3.763622884572189*^9}},ExpressionUUID->"f2b6d8b0-1a10-448b-b651-\
+3f2db535f8b9"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"V", "=", 
+   RowBox[{
+    RowBox[{"5", 
+     SuperscriptBox[
+      RowBox[{"(", "0.04", ")"}], 
+      RowBox[{"1", "/", "2"}]]}], "=", 
+    RowBox[{
+     RowBox[{"5", "\[Times]", "0.2"}], "=", "1"}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763622886381922*^9, 
+  3.7636229064732265`*^9}},ExpressionUUID->"423aca1d-f3ec-4aa1-8078-\
+8a4bcfa64f03"],
+
+Cell[TextData[StyleBox["c. If output Y is 1,000 units and the money supply M \
+is $1,200, what is the price level P ?",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
+ CellChangeTimes->{{3.7635988773597527`*^9, 3.7635989138277493`*^9}, {
+  3.76359898649542*^9, 3.763598986498418*^9}, {3.7636229780426416`*^9, 
+  3.7636229789352646`*^9}, {3.7636231273692083`*^9, 
+  3.7636231288572197`*^9}},ExpressionUUID->"d0858823-70fb-43e6-863f-\
+195855221b97"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"M", " ", "V"}], "=", 
+   RowBox[{"P", " ", "Y"}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763623050614086*^9, 3.7636230782434587`*^9}, {
+  3.763623131194852*^9, 3.7636231346656017`*^9}, {3.763623286200922*^9, 
+  3.763623292549182*^9}},ExpressionUUID->"4e90bae3-00b9-41f5-8c9e-\
+e283e3cd1c05"],
+
+Cell[TextData[{
+ "\tSubstitute ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"{", GridBox[{
+      {
+       RowBox[{"Y", "=", "1000"}]},
+      {
+       RowBox[{"M", "=", "1200"}]},
+      {
+       RowBox[{"V", "=", "1"}]}
+     }]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "9d41a898-a2b4-4688-9423-b4eaf57eb8e8"],
+ " into this quation "
+}], "Text",
+ CellChangeTimes->{{3.7636233240496445`*^9, 
+  3.7636233851876235`*^9}},ExpressionUUID->"2dec3572-145a-4341-8f8c-\
+124086a96a2f"],
 
 Cell["\<\
 d. Suppose the announcement of a new head of the central bank, with a \
@@ -383,12 +491,20 @@ Cell[8037, 229, 684, 19, 125, "Text",ExpressionUUID->"dd8a2216-4673-41b2-b88c-7a
 Cell[8724, 250, 582, 16, 191, "EquationNumbered",ExpressionUUID->"2e613e20-9c7f-42a8-80bf-6c06a85145d8"],
 Cell[9309, 268, 211, 4, 98, "Text",ExpressionUUID->"a5242d78-3fcf-4626-9dc9-199befa5d664"],
 Cell[9523, 274, 71, 0, 98, "Text",ExpressionUUID->"dad7bf06-f370-4182-be23-e721b7b978fc"],
-Cell[9597, 276, 618, 18, 199, "Text",ExpressionUUID->"1fc5db8c-61d0-4739-a00c-d16ffdd1cb07"],
-Cell[10218, 296, 357, 6, 173, "Text",ExpressionUUID->"6309498f-41ff-4875-805c-8de21236f10d"],
-Cell[10578, 304, 122, 3, 98, "Text",ExpressionUUID->"f44d54f9-4249-4e71-9dc6-2625e7fb806d"],
-Cell[10703, 309, 360, 8, 247, "Text",ExpressionUUID->"a570829b-df44-4165-a008-908c1b4fcc4a"],
-Cell[11066, 319, 846, 15, 843, "Text",ExpressionUUID->"8f8781c6-e5ff-4350-b42a-36aed2f69b79"],
-Cell[11915, 336, 71, 0, 98, "Text",ExpressionUUID->"2d4c46f6-326a-4bfc-9123-5c043626e8ee"]
+Cell[9597, 276, 585, 17, 199, "Text",ExpressionUUID->"1fc5db8c-61d0-4739-a00c-d16ffdd1cb07"],
+Cell[10185, 295, 357, 6, 173, "Text",ExpressionUUID->"6309498f-41ff-4875-805c-8de21236f10d"],
+Cell[10545, 303, 357, 10, 129, "EquationNumbered",ExpressionUUID->"f44d54f9-4249-4e71-9dc6-2625e7fb806d"],
+Cell[10905, 315, 815, 18, 129, "Text",ExpressionUUID->"a36a17e6-dc66-43d6-b529-6083dba34aef"],
+Cell[11723, 335, 281, 8, 129, "EquationNumbered",ExpressionUUID->"200fc3c7-8ea6-4a6d-9286-88cba8734a0e"],
+Cell[12007, 345, 184, 3, 98, "Text",ExpressionUUID->"d616bd04-26d4-4244-8710-0cb0f4484468"],
+Cell[12194, 350, 339, 6, 98, "Text",ExpressionUUID->"a570829b-df44-4165-a008-908c1b4fcc4a"],
+Cell[12536, 358, 406, 13, 98, "Text",ExpressionUUID->"f2b6d8b0-1a10-448b-b651-3f2db535f8b9"],
+Cell[12945, 373, 408, 13, 128, "EquationNumbered",ExpressionUUID->"423aca1d-f3ec-4aa1-8078-8a4bcfa64f03"],
+Cell[13356, 388, 441, 7, 173, "Text",ExpressionUUID->"d0858823-70fb-43e6-863f-195855221b97"],
+Cell[13800, 397, 362, 8, 125, "EquationNumbered",ExpressionUUID->"4e90bae3-00b9-41f5-8c9e-e283e3cd1c05"],
+Cell[14165, 407, 500, 18, 233, "Text",ExpressionUUID->"2dec3572-145a-4341-8f8c-124086a96a2f"],
+Cell[14668, 427, 846, 15, 843, "Text",ExpressionUUID->"8f8781c6-e5ff-4350-b42a-36aed2f69b79"],
+Cell[15517, 444, 71, 0, 98, "Text",ExpressionUUID->"2d4c46f6-326a-4bfc-9123-5c043626e8ee"]
 }, Open  ]]
 }
 ]
