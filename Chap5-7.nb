@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     19458,        504]
-NotebookOptionsPosition[     15604,        447]
-NotebookOutlinePosition[     16063,        465]
-CellTagsIndexPosition[     16020,        462]
+NotebookDataLength[     24161,        616]
+NotebookOptionsPosition[     18925,        545]
+NotebookOutlinePosition[     19384,        563]
+CellTagsIndexPosition[     19341,        560]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -409,38 +409,136 @@ Cell[TextData[{
  "\tSubstitute ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"{", GridBox[{
+   RowBox[{"(", GridBox[{
       {
        RowBox[{"Y", "=", "1000"}]},
       {
        RowBox[{"M", "=", "1200"}]},
       {
        RowBox[{"V", "=", "1"}]}
-     }]}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+     }]}], TraditionalForm]],ExpressionUUID->
   "9d41a898-a2b4-4688-9423-b4eaf57eb8e8"],
- " into this quation "
+ " into this equation "
 }], "Text",
- CellChangeTimes->{{3.7636233240496445`*^9, 
-  3.7636233851876235`*^9}},ExpressionUUID->"2dec3572-145a-4341-8f8c-\
+ CellChangeTimes->{{3.7636233240496445`*^9, 3.7636233851876235`*^9}, {
+  3.7636810553097425`*^9, 
+  3.76368112350585*^9}},ExpressionUUID->"2dec3572-145a-4341-8f8c-\
 124086a96a2f"],
 
-Cell["\<\
-d. Suppose the announcement of a new head of the central bank, with a \
-reputation of being soft on inflation, increases expected inflation by 5 \
-percentage points. According to the Fisher effect, what is the new nominal \
-interest rate?
-e. Calculate the new velocity of money. f. If, in the aftermath of the \
-announcement, both the economy\[CloseCurlyQuote]s output and the current \
-money supply are unchanged, what happens to the price level? Explain why this \
-occurs.
-g. If the new central banker wants to keep the price level the same after the \
-announcement, at what level should she set the money supply?\
-\>", "Text",
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"1200", "\[Times]", "1"}], "=", 
+   RowBox[{"P", "\[Times]", "1000"}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763681126987585*^9, 
+  3.7636811405080433`*^9}},ExpressionUUID->"d150293c-ef89-4421-836e-\
+36b975755eb5"],
+
+Cell["\twe obtain", "Text",
+ CellChangeTimes->{{3.7636811427738686`*^9, 
+  3.7636811458909626`*^9}},ExpressionUUID->"98182808-48fd-4dda-bf3b-\
+bdbad36104d8"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"P", "=", "1.2"}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763681151768408*^9, 
+  3.7636811542258*^9}},ExpressionUUID->"68131ad7-5079-4ff6-8dd9-b133843f657c"],
+
+Cell[TextData[StyleBox["d. Suppose the announcement of a new head of the \
+central bank, with a reputation of being soft on inflation, increases \
+expected inflation by 5 percentage points. According to the Fisher effect, \
+what is the new nominal interest rate?",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
+ CellChangeTimes->{{3.7635988773597527`*^9, 3.7635989138277493`*^9}, 
+   3.7635989876330757`*^9, {3.7635990183489847`*^9, 3.763599019178547*^9}, 
+   3.7636812724850426`*^9},ExpressionUUID->"8f8781c6-e5ff-4350-b42a-\
+36aed2f69b79"],
+
+Cell["\tFrom the Fisher effect:", "Text",
+ CellChangeTimes->{{3.7636812752823343`*^9, 3.7636812810767927`*^9}, {
+  3.7636813583004613`*^9, 
+  3.763681374461443*^9}},ExpressionUUID->"053c6888-7f6d-4863-9104-\
+4e766c70c2b1"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"i", "=", 
+   RowBox[{"r", "+", "E\[Pi]"}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7636813912515764`*^9, 
+  3.7636814096338263`*^9}},ExpressionUUID->"affa0d63-8fe7-40fc-aa25-\
+a7490376d80e"],
+
+Cell["\tAs we know:", "Text",
+ CellChangeTimes->{{3.763681423774542*^9, 
+  3.7636814287308273`*^9}},ExpressionUUID->"0444d3ed-2b95-4fe0-b683-\
+c3d203766cc8"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"\[CapitalDelta]E\[Pi]", "=", 
+   RowBox[{"5", "%"}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7636814302879715`*^9, 3.7636814303270583`*^9}, {
+  3.7636818317523165`*^9, 
+  3.7636818774090714`*^9}},ExpressionUUID->"46011b81-e385-433c-afe1-\
+d53af5ab0419"],
+
+Cell["\tHence:", "Text",
+ CellChangeTimes->{{3.763681890470377*^9, 
+  3.7636819004098816`*^9}},ExpressionUUID->"b410f601-2fcf-46b5-8288-\
+9715d65c8c14"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"\[CapitalDelta]", " ", "i"}], "=", 
+   RowBox[{"5", "%"}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763681901382409*^9, 
+  3.76368192858829*^9}},ExpressionUUID->"67de1b38-71e6-4660-8de9-\
+b583302ed05d"],
+
+Cell[TextData[{
+ "\tPresent nominal interest rate is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"4", "%"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "e717b39f-5e57-46ce-9597-df2355950d6e"],
+ ", so the new nominal interest rate is:"
+}], "Text",
+ CellChangeTimes->{{3.763681931529664*^9, 3.7636819376867*^9}, {
+  3.763681977529459*^9, 
+  3.7636820378408747`*^9}},ExpressionUUID->"989c036b-e347-49c2-a18c-\
+6ef6fd1d04de"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"i", "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"5", "%"}], "+", 
+     RowBox[{"4", "%"}]}], "=", 
+    RowBox[{"9", "%"}]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763682019454258*^9, 
+  3.763682049951518*^9}},ExpressionUUID->"2bc34cb4-5bfa-40f9-a1ca-\
+a97a292b563e"],
+
+Cell[TextData[{
+ StyleBox["e. Calculate the new velocity of money. f. If, in the aftermath of \
+the announcement, both the economy's output and the current money supply are \
+unchanged, what happens to the price level? Explain why this occurs.",
+  FontColor->RGBColor[0, 0, 1]],
+ "\ng. If the new central banker wants to keep the price level the same after \
+the announcement, at what level should she set the money supply?"
+}], "Text",
  CellChangeTimes->{{3.7635988773597527`*^9, 3.7635989138277493`*^9}, 
    3.7635989876330757`*^9, {3.7635990183489847`*^9, 
-   3.763599019178547*^9}},ExpressionUUID->"8f8781c6-e5ff-4350-b42a-\
-36aed2f69b79"],
+   3.763599019178547*^9}},ExpressionUUID->"9826389d-a5c6-4978-b32b-\
+a1532f586539"],
+
+Cell["", "Text",ExpressionUUID->"e6f84110-7f27-4518-b1d2-14a2fa736c84"],
+
+Cell["", "Text",ExpressionUUID->"b3ebdf6f-ed80-4bce-af13-bc8d57474268"],
 
 Cell["", "Text",ExpressionUUID->"2d4c46f6-326a-4bfc-9123-5c043626e8ee"]
 }, Open  ]]
@@ -502,9 +600,23 @@ Cell[12536, 358, 406, 13, 98, "Text",ExpressionUUID->"f2b6d8b0-1a10-448b-b651-3f
 Cell[12945, 373, 408, 13, 128, "EquationNumbered",ExpressionUUID->"423aca1d-f3ec-4aa1-8078-8a4bcfa64f03"],
 Cell[13356, 388, 441, 7, 173, "Text",ExpressionUUID->"d0858823-70fb-43e6-863f-195855221b97"],
 Cell[13800, 397, 362, 8, 125, "EquationNumbered",ExpressionUUID->"4e90bae3-00b9-41f5-8c9e-e283e3cd1c05"],
-Cell[14165, 407, 500, 18, 233, "Text",ExpressionUUID->"2dec3572-145a-4341-8f8c-124086a96a2f"],
-Cell[14668, 427, 846, 15, 843, "Text",ExpressionUUID->"8f8781c6-e5ff-4350-b42a-36aed2f69b79"],
-Cell[15517, 444, 71, 0, 98, "Text",ExpressionUUID->"2d4c46f6-326a-4bfc-9123-5c043626e8ee"]
+Cell[14165, 407, 518, 18, 233, "Text",ExpressionUUID->"2dec3572-145a-4341-8f8c-124086a96a2f"],
+Cell[14686, 427, 285, 7, 125, "EquationNumbered",ExpressionUUID->"d150293c-ef89-4421-836e-36b975755eb5"],
+Cell[14974, 436, 157, 3, 98, "Text",ExpressionUUID->"98182808-48fd-4dda-bf3b-bdbad36104d8"],
+Cell[15134, 441, 213, 4, 125, "EquationNumbered",ExpressionUUID->"68131ad7-5079-4ff6-8dd9-b133843f657c"],
+Cell[15350, 447, 536, 8, 322, "Text",ExpressionUUID->"8f8781c6-e5ff-4350-b42a-36aed2f69b79"],
+Cell[15889, 457, 222, 4, 98, "Text",ExpressionUUID->"053c6888-7f6d-4863-9104-4e766c70c2b1"],
+Cell[16114, 463, 248, 6, 125, "EquationNumbered",ExpressionUUID->"affa0d63-8fe7-40fc-aa25-a7490376d80e"],
+Cell[16365, 471, 157, 3, 98, "Text",ExpressionUUID->"0444d3ed-2b95-4fe0-b683-c3d203766cc8"],
+Cell[16525, 476, 311, 7, 125, "EquationNumbered",ExpressionUUID->"46011b81-e385-433c-afe1-d53af5ab0419"],
+Cell[16839, 485, 152, 3, 98, "Text",ExpressionUUID->"b410f601-2fcf-46b5-8288-9715d65c8c14"],
+Cell[16994, 490, 271, 7, 125, "EquationNumbered",ExpressionUUID->"67de1b38-71e6-4660-8de9-b583302ed05d"],
+Cell[17268, 499, 444, 12, 173, "Text",ExpressionUUID->"989c036b-e347-49c2-a18c-6ef6fd1d04de"],
+Cell[17715, 513, 326, 10, 125, "EquationNumbered",ExpressionUUID->"2bc34cb4-5bfa-40f9-a1ca-a97a292b563e"],
+Cell[18044, 525, 643, 11, 545, "Text",ExpressionUUID->"9826389d-a5c6-4978-b32b-a1532f586539"],
+Cell[18690, 538, 71, 0, 98, "Text",ExpressionUUID->"e6f84110-7f27-4518-b1d2-14a2fa736c84"],
+Cell[18764, 540, 71, 0, 98, "Text",ExpressionUUID->"b3ebdf6f-ed80-4bce-af13-bc8d57474268"],
+Cell[18838, 542, 71, 0, 98, "Text",ExpressionUUID->"2d4c46f6-326a-4bfc-9123-5c043626e8ee"]
 }, Open  ]]
 }
 ]
