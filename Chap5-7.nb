@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     24161,        616]
-NotebookOptionsPosition[     18925,        545]
-NotebookOutlinePosition[     19384,        563]
-CellTagsIndexPosition[     19341,        560]
+NotebookDataLength[     30078,        775]
+NotebookOptionsPosition[     23747,        693]
+NotebookOutlinePosition[     24206,        711]
+CellTagsIndexPosition[     24163,        708]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -523,18 +523,166 @@ Cell[BoxData[
   3.763682049951518*^9}},ExpressionUUID->"2bc34cb4-5bfa-40f9-a1ca-\
 a97a292b563e"],
 
+Cell[TextData[StyleBox["e. Calculate the new velocity of money.",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
+ CellChangeTimes->{{3.7635988773597527`*^9, 3.7635989138277493`*^9}, 
+   3.7635989876330757`*^9, {3.7635990183489847`*^9, 3.763599019178547*^9}, 
+   3.7636820867430897`*^9, 
+   3.763683239791871*^9},ExpressionUUID->"9826389d-a5c6-4978-b32b-\
+a1532f586539"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"V", "=", 
+   RowBox[{
+    RowBox[{"5", 
+     SuperscriptBox["i", "0.5"]}], "=", 
+    RowBox[{
+     RowBox[{"5", "\[Times]", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"9", "%"}], ")"}], "0.5"]}], "=", "1.5"}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763682090172661*^9, 3.7636820901810055`*^9}, {
+  3.7636825451269684`*^9, 
+  3.763682596666444*^9}},ExpressionUUID->"bd60a744-386d-4a7a-a83b-\
+ca3addd787cf"],
+
+Cell[TextData[StyleBox["f. If, in the aftermath of the announcement, both the \
+economy's output and the current money supply are unchanged, what happens to \
+the price level? Explain why this occurs.",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
+ CellChangeTimes->{{3.7635988773597527`*^9, 3.7635989138277493`*^9}, 
+   3.7635989876330757`*^9, {3.7635990183489847`*^9, 3.763599019178547*^9}, 
+   3.7636820867430897`*^9, 
+   3.763683242132234*^9},ExpressionUUID->"d0781687-3cd2-4d7e-ae28-\
+9a7fae000da3"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    FractionBox[
+     RowBox[{"\[DifferentialD]", "M"}], "M"], "+", 
+    FractionBox[
+     RowBox[{"\[DifferentialD]", "V"}], "V"]}], "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{"\[DifferentialD]", "P"}], "P"], "+", 
+    FractionBox[
+     RowBox[{"\[DifferentialD]", "Y"}], "Y"]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7635964304133883`*^9, 3.763596442425682*^9}, {
+  3.763596633990073*^9, 3.763596660774122*^9}, {3.7636828235192575`*^9, 
+  3.7636828349841404`*^9}, {3.76368287983014*^9, 
+  3.7636828882246523`*^9}},ExpressionUUID->"c6f7b3eb-5732-46fc-abe3-\
+798be4acba72"],
+
 Cell[TextData[{
- StyleBox["e. Calculate the new velocity of money. f. If, in the aftermath of \
-the announcement, both the economy's output and the current money supply are \
-unchanged, what happens to the price level? Explain why this occurs.",
-  FontColor->RGBColor[0, 0, 1]],
- "\ng. If the new central banker wants to keep the price level the same after \
-the announcement, at what level should she set the money supply?"
+ "\tBecause of  the equation above and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[DifferentialD]", "M"}], "=", 
+    RowBox[{
+     RowBox[{"\[DifferentialD]", "Y"}], "=", "0"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "3b175098-d1ca-4c9b-a41f-f055275180f6"]
 }], "Text",
+ CellChangeTimes->{{3.763683309390951*^9, 
+  3.763683377492034*^9}},ExpressionUUID->"5a908e48-8a9a-437a-a7e1-\
+4b9e7a624f7d"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{"\[DifferentialD]", "V"}], "V"], "=", 
+   FractionBox[
+    RowBox[{"\[DifferentialD]", "P"}], "P"]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763683380262686*^9, 
+  3.7636833891607747`*^9}},ExpressionUUID->"decfcd8a-8137-4488-bc12-\
+8ad4bd555bd7"],
+
+Cell["\<\
+\thence price level increase the same as the velocity, which is\
+\>", "Text",
+ CellChangeTimes->{{3.7636833925652747`*^9, 
+  3.7636834220117826`*^9}},ExpressionUUID->"d9e2c228-b40e-4f58-bc92-\
+beddc6cd55bf"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{"1.5", "-", "1"}], "1"], "=", 
+   RowBox[{"50", "%"}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7636834248932796`*^9, 3.7636834475083666`*^9}, {
+  3.7636836866627436`*^9, 
+  3.7636836943488708`*^9}},ExpressionUUID->"a2bae32d-be41-41f7-876f-\
+6fd66696f06a"],
+
+Cell[TextData[StyleBox["g. If the new central banker wants to keep the price \
+level the same after the announcement, at what level should she set the money \
+supply?",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
  CellChangeTimes->{{3.7635988773597527`*^9, 3.7635989138277493`*^9}, 
    3.7635989876330757`*^9, {3.7635990183489847`*^9, 
-   3.763599019178547*^9}},ExpressionUUID->"9826389d-a5c6-4978-b32b-\
-a1532f586539"],
+   3.763599019178547*^9}},ExpressionUUID->"3e87fc5b-6756-4b0f-9d8c-\
+472feb252374"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    FractionBox[
+     RowBox[{"\[DifferentialD]", "M"}], "M"], "+", 
+    FractionBox[
+     RowBox[{"\[DifferentialD]", "V"}], "V"]}], "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{"\[DifferentialD]", "P"}], "P"], "+", 
+    FractionBox[
+     RowBox[{"\[DifferentialD]", "Y"}], "Y"]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7635964304133883`*^9, 3.763596442425682*^9}, {
+  3.763596633990073*^9, 3.763596660774122*^9}, {3.7636828235192575`*^9, 
+  3.7636828349841404`*^9}, {3.76368287983014*^9, 
+  3.7636828882246523`*^9}},ExpressionUUID->"47d09a95-8c26-4145-a0b7-\
+ae73d7cafbd1"],
+
+Cell[TextData[{
+ "\tAfter the announcement, ",
+ Cell[BoxData[
+  FormBox["V", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "4fcf39c0-a2df-4869-b226-cf1703a021d1"],
+ " increases ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"50", "%"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "6359e54a-c417-42a6-914e-d54d54a3ed8d"],
+ ", hence ",
+ Cell[BoxData[
+  FormBox["M", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "e5bd0a7b-3719-4a6c-809f-5e630095e042"],
+ " should be decreased ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"50", "%"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "802d1b4a-0c17-4ea1-8d93-765e92e3d600"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.763682847112175*^9, 3.763682847494341*^9}, {
+  3.763682893730423*^9, 3.763682912564845*^9}, {3.763683702848978*^9, 
+  3.763683755941387*^9}},ExpressionUUID->"8ee9fc3d-0752-4733-be54-\
+68e06db5531c"],
+
+Cell["", "Text",ExpressionUUID->"7a655fc8-b4d0-44e5-bdbb-8b4dcced323e"],
 
 Cell["", "Text",ExpressionUUID->"e6f84110-7f27-4518-b1d2-14a2fa736c84"],
 
@@ -613,10 +761,21 @@ Cell[16839, 485, 152, 3, 98, "Text",ExpressionUUID->"b410f601-2fcf-46b5-8288-971
 Cell[16994, 490, 271, 7, 125, "EquationNumbered",ExpressionUUID->"67de1b38-71e6-4660-8de9-b583302ed05d"],
 Cell[17268, 499, 444, 12, 173, "Text",ExpressionUUID->"989c036b-e347-49c2-a18c-6ef6fd1d04de"],
 Cell[17715, 513, 326, 10, 125, "EquationNumbered",ExpressionUUID->"2bc34cb4-5bfa-40f9-a1ca-a97a292b563e"],
-Cell[18044, 525, 643, 11, 545, "Text",ExpressionUUID->"9826389d-a5c6-4978-b32b-a1532f586539"],
-Cell[18690, 538, 71, 0, 98, "Text",ExpressionUUID->"e6f84110-7f27-4518-b1d2-14a2fa736c84"],
-Cell[18764, 540, 71, 0, 98, "Text",ExpressionUUID->"b3ebdf6f-ed80-4bce-af13-bc8d57474268"],
-Cell[18838, 542, 71, 0, 98, "Text",ExpressionUUID->"2d4c46f6-326a-4bfc-9123-5c043626e8ee"]
+Cell[18044, 525, 363, 6, 98, "Text",ExpressionUUID->"9826389d-a5c6-4978-b32b-a1532f586539"],
+Cell[18410, 533, 486, 15, 128, "EquationNumbered",ExpressionUUID->"bd60a744-386d-4a7a-a83b-ca3addd787cf"],
+Cell[18899, 550, 500, 8, 247, "Text",ExpressionUUID->"d0781687-3cd2-4d7e-ae28-9a7fae000da3"],
+Cell[19402, 560, 653, 18, 190, "EquationNumbered",ExpressionUUID->"c6f7b3eb-5732-46fc-abe3-798be4acba72"],
+Cell[20058, 580, 455, 13, 98, "Text",ExpressionUUID->"5a908e48-8a9a-437a-a7e1-4b9e7a624f7d"],
+Cell[20516, 595, 334, 10, 190, "EquationNumbered",ExpressionUUID->"decfcd8a-8137-4488-bc12-8ad4bd555bd7"],
+Cell[20853, 607, 217, 5, 173, "Text",ExpressionUUID->"d9e2c228-b40e-4f58-bc92-beddc6cd55bf"],
+Cell[21073, 614, 341, 9, 188, "EquationNumbered",ExpressionUUID->"a2bae32d-be41-41f7-876f-6fd66696f06a"],
+Cell[21417, 625, 416, 7, 247, "Text",ExpressionUUID->"3e87fc5b-6756-4b0f-9d8c-472feb252374"],
+Cell[21836, 634, 653, 18, 190, "EquationNumbered",ExpressionUUID->"47d09a95-8c26-4145-a0b7-ae73d7cafbd1"],
+Cell[22492, 654, 943, 28, 173, "Text",ExpressionUUID->"8ee9fc3d-0752-4733-be54-68e06db5531c"],
+Cell[23438, 684, 71, 0, 98, "Text",ExpressionUUID->"7a655fc8-b4d0-44e5-bdbb-8b4dcced323e"],
+Cell[23512, 686, 71, 0, 98, "Text",ExpressionUUID->"e6f84110-7f27-4518-b1d2-14a2fa736c84"],
+Cell[23586, 688, 71, 0, 98, "Text",ExpressionUUID->"b3ebdf6f-ed80-4bce-af13-bc8d57474268"],
+Cell[23660, 690, 71, 0, 98, "Text",ExpressionUUID->"2d4c46f6-326a-4bfc-9123-5c043626e8ee"]
 }, Open  ]]
 }
 ]
