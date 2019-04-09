@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    120052,       2335]
-NotebookOptionsPosition[    111842,       2235]
-NotebookOutlinePosition[    112301,       2253]
-CellTagsIndexPosition[    112258,       2250]
+NotebookDataLength[    136274,       2709]
+NotebookOptionsPosition[    124082,       2569]
+NotebookOutlinePosition[    124584,       2588]
+CellTagsIndexPosition[    124541,       2585]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2177,64 +2177,399 @@ Cell[BoxData[
   3.763710197550866*^9}},ExpressionUUID->"8329a9ed-1805-40bb-81da-\
 dbe90f01ed4c"],
 
-Cell[BoxData[
- FormBox[
-  StyleBox[
-   RowBox[{
-    RowBox[{
-     RowBox[{"b", ".", "Suppose"}], " ", "now", " ", "that", " ", "G", " ", 
-     "is", " ", "cut", " ", "to", " ", "2"}], ",", 
-    RowBox[{"000.", " ", "Solve", " ", "for", " ", "private", " ", "saving"}],
-     ",", 
-    RowBox[{"public", " ", "saving"}], ",", 
-    RowBox[{"national", " ", "saving"}], ",", "investment", ",", 
-    RowBox[{"the", " ", "trade", " ", "balance"}], ",", 
-    RowBox[{"and", " ", "the", " ", "equilibrium", " ", "exchange", " ", 
-     RowBox[{"rate", ".", "Explain"}], " ", "what", " ", "you", " ", 
-     RowBox[{"find", "."}]}]}],
-   FontColor->RGBColor[0, 0, 1]], TextForm]], "Text",
- CellChangeTimes->{{3.7637091002445483`*^9, 
-  3.763709123310213*^9}},ExpressionUUID->"7faaf42e-cac2-4d3b-81dd-\
-64881afca017"],
+Cell[TextData[StyleBox["b. Suppose now that G is cut to 2,000. Solve for \
+private saving, public saving, national saving, investment, the trade \
+balance, and the equilibrium exchange rate. Explain what you find",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
+ CellChangeTimes->{{3.7635988773597527`*^9, 3.7635989138277493`*^9}, 
+   3.7635989876330757`*^9, {3.7635990183489847`*^9, 3.763599019178547*^9}, 
+   3.7636820867430897`*^9, 3.763683242132234*^9, {3.763726703888112*^9, 
+   3.7637267208827887`*^9}},ExpressionUUID->"9e3863b4-35c8-4e4e-ba42-\
+597efccbf1b3"],
 
 Cell["\tSimilar to the above question, we can calculate", "Text",
  CellChangeTimes->{{3.763710207194977*^9, 
   3.7637102289278216`*^9}},ExpressionUUID->"a8475865-061a-4c60-83a5-\
 20f7e0923062"],
 
-Cell["", "Text",ExpressionUUID->"611fd3f4-f708-46da-ac69-97f6a4bdf121"],
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox["S", "private"], "=", "1500"}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7637123361929*^9, 
+  3.763712365759673*^9}},ExpressionUUID->"ed5a1110-f92b-4e6b-beee-\
+50cc1792e603"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox["S", "public"], "=", "0"}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7637123361929*^9, 
+  3.7637123907016535`*^9}},ExpressionUUID->"5c22db9a-e3eb-4a2b-9cfc-\
+3256bd976746"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"S", "=", "1500"}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7637123361929*^9, 
+  3.7637123928882227`*^9}},ExpressionUUID->"24da8848-a818-45bb-af25-\
+10f4f35b0c9b"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"I", "=", "500"}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763712397128317*^9, 
+  3.7637123997952104`*^9}},ExpressionUUID->"60bdc5a2-f8d3-4397-b1bc-\
+2fd233824be7"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"NX", "=", "1000"}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763712397128317*^9, 
+  3.7637124033292227`*^9}},ExpressionUUID->"c1b56180-01cf-46e2-b3b2-\
+d1b5109795cb"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"\[Epsilon]", "=", "2"}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763712397128317*^9, 
+  3.7637124094249425`*^9}},ExpressionUUID->"f15c4e58-fc08-42f2-b8e8-\
+422bbe908419"],
+
+Cell["\<\
+\tNX increase leads to capital outflow, which makes currency depreciated and \
+equilibrium exchange rate decreases.\
+\>", "Text",
+ CellChangeTimes->{{3.7637124252751904`*^9, 3.7637124487193823`*^9}, {
+  3.7637124818512945`*^9, 3.7637124825309925`*^9}, {3.7637125776644464`*^9, 
+  3.763712631527957*^9}, {3.7637126721988153`*^9, 
+  3.7637126887220984`*^9}},ExpressionUUID->"33ed0c37-11a4-4a47-8449-\
+15e7499353a0"],
+
+Cell[TextData[StyleBox["c. Now suppose that the world interest rate falls \
+from 8 to 3 percent. (G is again 2,500.) Solve for private saving, public \
+saving, national saving, investment, the trade balance, and the equilibrium \
+exchange rate. Explain what you find.",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
+ CellChangeTimes->{{3.7635988773597527`*^9, 3.7635989138277493`*^9}, 
+   3.7635989876330757`*^9, {3.7635990183489847`*^9, 3.763599019178547*^9}, 
+   3.7636820867430897`*^9, 3.763683242132234*^9, {3.763726703888112*^9, 
+   3.763726747316123*^9}},ExpressionUUID->"0b62048e-e0ae-4b15-aeb2-\
+10107d4ec955"],
+
+Cell["\tSimilar to the above question, we can calculate", "Text",
+ CellChangeTimes->{{3.763710207194977*^9, 
+  3.7637102289278216`*^9}},ExpressionUUID->"416fef1e-387b-485a-8887-\
+2b6f6804372d"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox["S", "private"], "=", "1500"}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7637123361929*^9, 
+  3.763712365759673*^9}},ExpressionUUID->"a170a829-1227-441f-b587-\
+4c36663bb9db"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox["S", "public"], "=", 
+   RowBox[{"-", "500"}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7637123361929*^9, 3.7637123907016535`*^9}, {
+  3.7637271787266974`*^9, 
+  3.7637271793236203`*^9}},ExpressionUUID->"338ffa62-f9e7-4356-b9a5-\
+2f4edd176c66"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"S", "=", "1000"}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7637123361929*^9, 3.7637123928882227`*^9}, 
+   3.763727183170494*^9},ExpressionUUID->"5b3ade1d-7393-42e7-9c75-\
+7ab7d8850fd0"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"I", "=", "750"}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763712397128317*^9, 3.7637123997952104`*^9}, {
+  3.7637271873271713`*^9, 
+  3.7637271888312607`*^9}},ExpressionUUID->"033f434e-b2a1-488c-aa59-\
+158e6837a663"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"NX", "=", "250"}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763712397128317*^9, 3.7637124033292227`*^9}, {
+  3.7637271941830864`*^9, 
+  3.7637271947485104`*^9}},ExpressionUUID->"622d6389-06ae-43f4-96af-\
+06ef7a7ae3d5"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"\[Epsilon]", "=", "5"}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763712397128317*^9, 3.7637124094249425`*^9}, 
+   3.7637271990802603`*^9},ExpressionUUID->"8d3115fd-8423-40e7-bf05-\
+a0b320d7db52"],
+
+Cell[TextData[{
+ "\tLower real world interest rate increase investment, which leads to a \
+lower NX, hence ",
+ Cell[BoxData[
+  FormBox["\[Epsilon]", TraditionalForm]],ExpressionUUID->
+  "f2b73fb5-826f-4f6c-8ba8-84c8c50679c0"],
+ " increases."
+}], "Text",
+ CellChangeTimes->{{3.7637279670348*^9, 
+  3.7637280807528124`*^9}},ExpressionUUID->"2d4c46f6-326a-4bfc-9123-\
+5c043626e8ee"],
+
+Cell["", "Text",ExpressionUUID->"ce3dd2b1-45ca-4701-a6cc-779edf27b389"],
+
+Cell[TextData[StyleBox[" The country of Leverett is a small open economy. \
+Suddenly, a change in world fashions makes the exports of Leverett unpopular. \
+", "Subsubsubsection"]], "Text",
+ CellChangeTimes->{{3.7637611698053293`*^9, 
+  3.7637611698053293`*^9}},ExpressionUUID->"4a88d6b4-83a1-4920-abee-\
+da8c4838c94b"],
+
+Cell[TextData[StyleBox["a. What happens in Leverett to saving, investment, \
+net exports, the interest rate, and the exchange rate?",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
+ CellChangeTimes->{
+  3.763761278205183*^9, {3.763762015500098*^9, 
+   3.7637620219635487`*^9}},ExpressionUUID->"1c289023-11a4-48e7-b235-\
+6541639acf34"],
+
+Cell[TextData[{
+ " \tSaving, investment, net exports, net exports and interest rate are not \
+affected by this change, however, due to the exports of Leverett become \
+unpopular, in the same ",
+ Cell[BoxData[
+  FormBox["\[Epsilon]", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "cba42ffd-6cf8-418d-9c2f-3de5618b04bb"],
+ ", NX will be lower, i.e., in the same NX, the exchange rate will decreases."
+}], "Text",
+ CellChangeTimes->{
+  3.763761914627472*^9, {3.7637620790478215`*^9, 3.763762199186311*^9}, {
+   3.763762229367406*^9, 3.7637622623502116`*^9}, {3.7637624916102953`*^9, 
+   3.7637625202850685`*^9}, {3.763763102648017*^9, 
+   3.7637631887404723`*^9}},ExpressionUUID->"f1480ec6-0110-406a-91d2-\
+649515a88f24"],
+
+Cell[TextData[StyleBox["b. The citizens of Leverett like to travel abroad. \
+How will this change in the exchange rate affect them?",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
+ CellChangeTimes->{
+  3.7637632001895294`*^9},ExpressionUUID->"774f0dd9-392f-4c45-820b-\
+f01402a91354"],
+
+Cell["\<\
+\tBecause of currency devaluation, the cost of traveling abroad increases, \
+the citizens will travel less.\
+\>", "Text",
+ CellChangeTimes->{{3.7637632192816324`*^9, 3.7637632431863117`*^9}, {
+  3.7637634495563135`*^9, 
+  3.763763501753834*^9}},ExpressionUUID->"bd14efbc-0b98-40a4-acf0-\
+0cfc80768ca2"],
+
+Cell[TextData[StyleBox["c. The fiscal policymakers of Leverett want to adjust \
+taxes to maintain the exchange rate at its previous level. What should they \
+do? If they do this, what are the overall effects on saving, investment, net \
+exports, and the interest rate?",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
+ CellChangeTimes->{{3.763763507104602*^9, 
+  3.763763508314392*^9}},ExpressionUUID->"113c07ab-0ad2-41f5-a2cd-\
+8374bcdb7eae"],
+
+Cell["\<\
+\tTo increase exchange rate, NX should be lowered, so policymakers can reduce \
+tax or increase government purchase. Which has no effects on interest rate \
+and investment, but  lower savings and NX.\
+\>", "Text",
+ CellChangeTimes->{
+  3.7637638982938747`*^9, {3.7637640394683466`*^9, 3.763764116336153*^9}, {
+   3.7637641564611044`*^9, 3.763764194890408*^9}, {3.763764358015476*^9, 
+   3.763764485496728*^9}, 
+   3.7637646066105986`*^9},ExpressionUUID->"f9edd258-a563-478d-886c-\
+36348b1d99cf"],
+
+Cell[TextData[StyleBox["You read on a financial Web site that the nominal \
+interest rate is 12 percent per year in Canada and 8 percent per year in the \
+United States. Suppose that international capital flows equalize the real \
+interest rates in the two countries and that purchasing-power parity holds. \
+", "Subsubsubsection"]], "Text",
+ CellChangeTimes->{{3.7637646169300103`*^9, 
+  3.76376462581946*^9}},ExpressionUUID->"83bdcaf2-5e45-47df-85e8-\
+e1665afe07cc"],
+
+Cell[TextData[StyleBox["a. Using the Fisher equation (discussed in Chapter \
+5), what can you infer about expected inflation in Canada and in the United \
+States?",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
+ CellChangeTimes->{{3.7637646169300103`*^9, 3.7637646363721995`*^9}, 
+   3.763777681069312*^9},ExpressionUUID->"82affe4c-0fd1-479c-9de0-\
+87b8d7126399"],
+
+Cell["\tFor Canada:", "Text",
+ CellChangeTimes->{
+  3.7637777443134823`*^9, {3.7637777936324625`*^9, 
+   3.7637778045480137`*^9}},ExpressionUUID->"11321c49-898c-41c1-8f49-\
+4ea36e942291"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"12", "%"}], "=", 
+   RowBox[{"r", "+", 
+    SubscriptBox["E\[Pi]", "ca"]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763777806649624*^9, 3.7637778588906326`*^9}, 
+   3.763777890606694*^9, 
+   3.7637780952778864`*^9},ExpressionUUID->"165ec2b5-95f7-4c9e-8b18-\
+b1542a9d09d7"],
+
+Cell["\tFor US:", "Text",
+ CellChangeTimes->{{3.7637778947787275`*^9, 
+  3.7637778998980856`*^9}},ExpressionUUID->"a6c782da-9b64-4798-bb82-\
+242692a4ece3"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"8", "%"}], "=", 
+   RowBox[{"r", "+", 
+    SubscriptBox["E\[Pi]", "us"]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7637779021270833`*^9, 3.763777923041629*^9}, 
+   3.763778097500975*^9},ExpressionUUID->"099e1944-8b6c-47a2-8e75-\
+7402fdf433eb"],
+
+Cell["\tHence:", "Text",
+ CellChangeTimes->{
+  3.763777925366414*^9, {3.7637780645811043`*^9, 
+   3.763778070257386*^9}},ExpressionUUID->"4e5765b8-9c73-4ae9-a9c2-\
+4b3907b10673"],
 
 Cell[BoxData[
  FormBox[
   RowBox[{
    RowBox[{
-    RowBox[{"c", ".", "Now"}], " ", "suppose", " ", "that", " ", "the", " ", 
-    "world", " ", "interest", " ", "rate", " ", "falls", " ", "from", " ", 
-    "8", " ", "to", " ", "3", " ", 
-    RowBox[{"percent", ".", 
-     RowBox[{"(", 
-      RowBox[{
-       RowBox[{"G", " ", "is", " ", "again", " ", "2"}], ",", "500."}], 
-      ")"}]}], " ", "Solve", " ", "for", " ", "private", " ", "saving"}], ",", 
-   RowBox[{"public", " ", "saving"}], ",", 
-   RowBox[{"national", " ", "saving"}], ",", "investment", ",", 
-   RowBox[{"the", " ", "trade", " ", "balance"}], ",", 
+    SubscriptBox["E\[Pi]", "ca"], "-", 
+    SubscriptBox["E\[Pi]", "us"]}], "=", 
+   RowBox[{"4", "%"}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763778072643845*^9, 
+  3.7637780996013613`*^9}},ExpressionUUID->"1f2c44f5-143a-43c3-b995-\
+6104b6f42838"],
+
+Cell[TextData[StyleBox["b. What can you infer about the expected change in \
+the exchange rate between the Canadian dollar and the U.S. dollar?",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
+ CellChangeTimes->{{3.7637646169300103`*^9, 3.7637646363721995`*^9}, 
+   3.763777689084015*^9},ExpressionUUID->"4d7642ce-3592-4daa-b246-\
+27e0f843c230"],
+
+Cell["\tThe nominal exchange rate is", "Text",
+ CellChangeTimes->{{3.7637781270801926`*^9, 
+  3.763778139911474*^9}},ExpressionUUID->"a72e67b7-c391-41d1-9215-\
+a8bf1942eecb"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"e", "=", 
+   FractionBox[
+    RowBox[{"\[Epsilon]", " ", 
+     SubscriptBox["P", "ca"]}], 
+    SubscriptBox["P", "us"]]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763778142218432*^9, 
+  3.7637781729436913`*^9}},ExpressionUUID->"03bbd36a-89fb-428e-a255-\
+d3b77dfb5bd1"],
+
+Cell["\tHence", "Text",
+ CellChangeTimes->{{3.763778526220955*^9, 
+  3.7637785403107786`*^9}},ExpressionUUID->"7c909174-2d16-4a41-aa16-\
+8e86df4b90fc"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"%", " ", "change", " ", "in", " ", "e"}], "=", 
    RowBox[{
-    RowBox[{"and", " ", "the", " ", "equilib"}], "-", 
-    RowBox[{"rium", " ", "exchange", " ", 
-     RowBox[{"rate", ".", "Explain"}], " ", "what", " ", "you", " ", 
-     RowBox[{"find", "."}]}]}]}], TextForm]], "Text",
- CellChangeTimes->{{3.7637091002445483`*^9, 
-  3.7637091180570564`*^9}},ExpressionUUID->"70b62473-3aa1-4bfd-ba72-\
-6b483534d3c3"],
+    RowBox[{"%", " ", "change", " ", "in", " ", "\[Epsilon]"}], "+", 
+    SubscriptBox["\[Pi]", "ca"], "-", 
+    SubscriptBox["\[Pi]", "us"]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7637785459933453`*^9, 3.763778557338396*^9}, {
+  3.763778842474659*^9, 
+  3.763778882444914*^9}},ExpressionUUID->"bd10e581-a5a5-423b-aee5-\
+bef14c0e3fa9"],
 
-Cell["", "Text",ExpressionUUID->"d38477a8-c1d9-4546-8e2c-99efd102120b"],
+Cell[TextData[{
+ "\tBecause purchase parity holds, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"%", " ", "change", " ", "in", " ", "\[Epsilon]"}], "=", "0"}], 
+   TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "d2181ea9-9bed-4208-81c1-30936b839df4"],
+ ":"
+}], "Text",
+ CellChangeTimes->{{3.763778896662378*^9, 3.7637789290476985`*^9}, {
+  3.763779018279994*^9, 
+  3.7637790655435762`*^9}},ExpressionUUID->"9230cbc7-ba37-40f9-b751-\
+6f82bff04f44"],
 
-Cell["", "Text",ExpressionUUID->"2d4c46f6-326a-4bfc-9123-5c043626e8ee"]
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"%", " ", "change", " ", "in", " ", "e"}], "=", 
+   RowBox[{
+    SubscriptBox["\[Pi]", "ca"], "-", 
+    SubscriptBox["\[Pi]", "us"]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.7637790665590534`*^9, 
+  3.7637790769611945`*^9}},ExpressionUUID->"c93e82bf-d4f1-408e-b4fc-\
+c144f82ea9af"],
+
+Cell["\tPeople expects:", "Text",
+ CellChangeTimes->{{3.76377911817196*^9, 
+  3.763779126496994*^9}},ExpressionUUID->"3365b41e-4975-4b39-9a66-\
+12a68e95d478"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"E", "%", " ", "change", " ", "in", " ", "e"}], "=", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["E\[Pi]", "ca"], "-", 
+     SubscriptBox["E\[Pi]", "us"]}], "=", 
+    RowBox[{"4", "%"}]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.763779127872469*^9, 
+  3.76377915221527*^9}},ExpressionUUID->"e9994c32-0418-4166-8e2c-\
+95575795a15c"],
+
+Cell[TextData[StyleBox["c. A friend proposes a get-rich-quick scheme: borrow \
+from a U.S. bank at 8 percent, deposit the money in a Canadian bank at 12 \
+percent, and make a 4 percent profit. What's wrong with this scheme?",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
+ CellChangeTimes->{{3.7637646169300103`*^9, 3.7637646363721995`*^9}, {
+  3.763779511967021*^9, 
+  3.76377951258832*^9}},ExpressionUUID->"eed7f17a-d843-4a15-846a-\
+22e4967cb366"],
+
+Cell["\<\
+\tHe just focus on the difference of nominal interest rate between two \
+country, but ignore the change of exchange rate.\
+\>", "Text",
+ CellChangeTimes->{{3.76377951950898*^9, 3.7637795801984835`*^9}, {
+  3.7637796512367935`*^9, 3.7637796782957053`*^9}, {3.7637797266178045`*^9, 
+  3.7637798311776257`*^9}},ExpressionUUID->"c283b52d-7e45-43bd-b5c3-\
+a5e36d6bf543"]
 }, Open  ]]
 },
 WindowSize->{1616, 2037},
 WindowMargins->{{Automatic, -14}, {Automatic, 0}},
+PrintingPageRange->{Automatic, Automatic},
 Magnification:>3. Inherited,
 FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (2018\:5e743\:670828\
 \:65e5)",
@@ -2253,53 +2588,53 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 235, 4, 892, "Title",ExpressionUUID->"1c1819a6-64c4-4f29-8c9e-55d907dbd08a",
+Cell[580, 22, 235, 4, 343, "Title",ExpressionUUID->"1c1819a6-64c4-4f29-8c9e-55d907dbd08a",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[818, 28, 244, 4, 317, "Author",ExpressionUUID->"c6f50170-9fd2-4da1-b746-a5c88822fab9",
+Cell[818, 28, 244, 4, 190, "Author",ExpressionUUID->"c6f50170-9fd2-4da1-b746-a5c88822fab9",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[1065, 34, 239, 4, 60, "Institution",ExpressionUUID->"e74e022c-d30b-4046-8601-1dce6bb8aa51",
+Cell[1065, 34, 239, 4, 61, "Institution",ExpressionUUID->"e74e022c-d30b-4046-8601-1dce6bb8aa51",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[1307, 40, 498, 8, 288, "AbstractSection",ExpressionUUID->"1a66bedf-ac55-4af7-95c0-a1b26933e084",
+Cell[1307, 40, 498, 8, 289, "AbstractSection",ExpressionUUID->"1a66bedf-ac55-4af7-95c0-a1b26933e084",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[1808, 50, 432, 7, 463, "Date",ExpressionUUID->"d72480c2-c164-4311-9b5f-859cb0bfaa77",
+Cell[1808, 50, 432, 7, 117, "Date",ExpressionUUID->"d72480c2-c164-4311-9b5f-859cb0bfaa77",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2277, 62, 695, 16, 10025, "Subsubsubsection",ExpressionUUID->"3bac48c3-1d47-47ae-84c7-9c44a2f08cad"],
-Cell[2975, 80, 307, 6, 2369, "Text",ExpressionUUID->"223f0614-a023-452a-910e-c562ef1e3d37"],
-Cell[3285, 88, 489, 15, 2378, "Text",ExpressionUUID->"80f7ac6e-d08b-4e2c-999a-b421dd2a03d0"],
-Cell[3777, 105, 553, 17, 1245, "EquationNumbered",ExpressionUUID->"e3aeab01-9a71-48c4-8d4a-541a50982a3f"],
-Cell[4333, 124, 1326, 37, 9127, "Text",ExpressionUUID->"e068a952-52e2-4d57-8d5d-551dce1d0e6a"],
-Cell[5662, 163, 301, 9, 945, "EquationNumbered",ExpressionUUID->"d4459af0-5068-48e8-9bc1-e3e99407595b"],
-Cell[5966, 174, 350, 7, 4935, "Text",ExpressionUUID->"08259f71-f8cb-465a-ad1a-24fa6d150cbf"],
-Cell[6319, 183, 240, 6, 97, "Text",ExpressionUUID->"3149954d-279b-4fb1-9fa5-01da5e4fce1d"],
-Cell[6562, 191, 388, 7, 5522, "Text",ExpressionUUID->"5981dd2e-bbeb-4e3a-96e3-ee8060a37703"],
-Cell[6953, 200, 1081, 27, 16381, "Text",ExpressionUUID->"804d6ce9-c300-451c-b15f-3cc131c5c848"],
-Cell[8037, 229, 684, 19, 2741, "Text",ExpressionUUID->"dd8a2216-4673-41b2-b88c-7a1de814454d"],
-Cell[8724, 250, 582, 16, 1245, "EquationNumbered",ExpressionUUID->"2e613e20-9c7f-42a8-80bf-6c06a85145d8"],
-Cell[9309, 268, 211, 4, 975, "Text",ExpressionUUID->"a5242d78-3fcf-4626-9dc9-199befa5d664"],
-Cell[9523, 274, 71, 0, 97, "Text",ExpressionUUID->"dad7bf06-f370-4182-be23-e721b7b978fc"],
-Cell[9597, 276, 585, 17, 4530, "Text",ExpressionUUID->"1fc5db8c-61d0-4739-a00c-d16ffdd1cb07"],
-Cell[10185, 295, 357, 6, 7355, "Text",ExpressionUUID->"6309498f-41ff-4875-805c-8de21236f10d"],
-Cell[10545, 303, 357, 10, 723, "EquationNumbered",ExpressionUUID->"f44d54f9-4249-4e71-9dc6-2625e7fb806d"],
-Cell[10905, 315, 815, 18, 2639, "Text",ExpressionUUID->"a36a17e6-dc66-43d6-b529-6083dba34aef"],
-Cell[11723, 335, 281, 8, 381, "EquationNumbered",ExpressionUUID->"200fc3c7-8ea6-4a6d-9286-88cba8734a0e"],
-Cell[12007, 345, 184, 3, 2295, "Text",ExpressionUUID->"d616bd04-26d4-4244-8710-0cb0f4484468"],
-Cell[12194, 350, 339, 6, 4055, "Text",ExpressionUUID->"a570829b-df44-4165-a008-908c1b4fcc4a"],
-Cell[12536, 358, 406, 13, 835, "Text",ExpressionUUID->"f2b6d8b0-1a10-448b-b651-3f2db535f8b9"],
-Cell[12945, 373, 408, 13, 1246, "EquationNumbered",ExpressionUUID->"423aca1d-f3ec-4aa1-8078-8a4bcfa64f03"],
-Cell[13356, 388, 441, 7, 5229, "Text",ExpressionUUID->"d0858823-70fb-43e6-863f-195855221b97"],
-Cell[13800, 397, 362, 8, 571, "EquationNumbered",ExpressionUUID->"4e90bae3-00b9-41f5-8c9e-e283e3cd1c05"],
-Cell[14165, 407, 518, 18, 2280, "Text",ExpressionUUID->"2dec3572-145a-4341-8f8c-124086a96a2f"],
-Cell[14686, 427, 285, 7, 1020, "EquationNumbered",ExpressionUUID->"d150293c-ef89-4421-836e-36b975755eb5"],
-Cell[14974, 436, 157, 3, 682, "Text",ExpressionUUID->"98182808-48fd-4dda-bf3b-bdbad36104d8"],
-Cell[15134, 441, 213, 4, 422, "EquationNumbered",ExpressionUUID->"68131ad7-5079-4ff6-8dd9-b133843f657c"],
-Cell[15350, 447, 536, 8, 14249, "Text",ExpressionUUID->"8f8781c6-e5ff-4350-b42a-36aed2f69b79"],
-Cell[15889, 457, 222, 4, 1562, "Text",ExpressionUUID->"053c6888-7f6d-4863-9104-4e766c70c2b1"],
-Cell[16114, 463, 248, 6, 496, "EquationNumbered",ExpressionUUID->"affa0d63-8fe7-40fc-aa25-a7490376d80e"],
-Cell[16365, 471, 157, 3, 755, "Text",ExpressionUUID->"0444d3ed-2b95-4fe0-b683-c3d203766cc8"],
-Cell[16525, 476, 311, 7, 571, "EquationNumbered",ExpressionUUID->"46011b81-e385-433c-afe1-d53af5ab0419"],
-Cell[16839, 485, 152, 3, 535, "Text",ExpressionUUID->"b410f601-2fcf-46b5-8288-9715d65c8c14"],
+Cell[2277, 62, 695, 16, 374, "Subsubsubsection",ExpressionUUID->"3bac48c3-1d47-47ae-84c7-9c44a2f08cad"],
+Cell[2975, 80, 307, 6, 98, "Text",ExpressionUUID->"223f0614-a023-452a-910e-c562ef1e3d37"],
+Cell[3285, 88, 489, 15, 132, "Text",ExpressionUUID->"80f7ac6e-d08b-4e2c-999a-b421dd2a03d0"],
+Cell[3777, 105, 553, 17, 191, "EquationNumbered",ExpressionUUID->"e3aeab01-9a71-48c4-8d4a-541a50982a3f"],
+Cell[4333, 124, 1326, 37, 247, "Text",ExpressionUUID->"e068a952-52e2-4d57-8d5d-551dce1d0e6a"],
+Cell[5662, 163, 301, 9, 125, "EquationNumbered",ExpressionUUID->"d4459af0-5068-48e8-9bc1-e3e99407595b"],
+Cell[5966, 174, 350, 7, 173, "Text",ExpressionUUID->"08259f71-f8cb-465a-ad1a-24fa6d150cbf"],
+Cell[6319, 183, 240, 6, 173, "Text",ExpressionUUID->"3149954d-279b-4fb1-9fa5-01da5e4fce1d"],
+Cell[6562, 191, 388, 7, 173, "Text",ExpressionUUID->"5981dd2e-bbeb-4e3a-96e3-ee8060a37703"],
+Cell[6953, 200, 1081, 27, 498, "Text",ExpressionUUID->"804d6ce9-c300-451c-b15f-3cc131c5c848"],
+Cell[8037, 229, 684, 19, 125, "Text",ExpressionUUID->"dd8a2216-4673-41b2-b88c-7a1de814454d"],
+Cell[8724, 250, 582, 16, 191, "EquationNumbered",ExpressionUUID->"2e613e20-9c7f-42a8-80bf-6c06a85145d8"],
+Cell[9309, 268, 211, 4, 98, "Text",ExpressionUUID->"a5242d78-3fcf-4626-9dc9-199befa5d664"],
+Cell[9523, 274, 71, 0, 98, "Text",ExpressionUUID->"dad7bf06-f370-4182-be23-e721b7b978fc"],
+Cell[9597, 276, 585, 17, 199, "Text",ExpressionUUID->"1fc5db8c-61d0-4739-a00c-d16ffdd1cb07"],
+Cell[10185, 295, 357, 6, 173, "Text",ExpressionUUID->"6309498f-41ff-4875-805c-8de21236f10d"],
+Cell[10545, 303, 357, 10, 129, "EquationNumbered",ExpressionUUID->"f44d54f9-4249-4e71-9dc6-2625e7fb806d"],
+Cell[10905, 315, 815, 18, 129, "Text",ExpressionUUID->"a36a17e6-dc66-43d6-b529-6083dba34aef"],
+Cell[11723, 335, 281, 8, 129, "EquationNumbered",ExpressionUUID->"200fc3c7-8ea6-4a6d-9286-88cba8734a0e"],
+Cell[12007, 345, 184, 3, 98, "Text",ExpressionUUID->"d616bd04-26d4-4244-8710-0cb0f4484468"],
+Cell[12194, 350, 339, 6, 98, "Text",ExpressionUUID->"a570829b-df44-4165-a008-908c1b4fcc4a"],
+Cell[12536, 358, 406, 13, 98, "Text",ExpressionUUID->"f2b6d8b0-1a10-448b-b651-3f2db535f8b9"],
+Cell[12945, 373, 408, 13, 128, "EquationNumbered",ExpressionUUID->"423aca1d-f3ec-4aa1-8078-8a4bcfa64f03"],
+Cell[13356, 388, 441, 7, 173, "Text",ExpressionUUID->"d0858823-70fb-43e6-863f-195855221b97"],
+Cell[13800, 397, 362, 8, 125, "EquationNumbered",ExpressionUUID->"4e90bae3-00b9-41f5-8c9e-e283e3cd1c05"],
+Cell[14165, 407, 518, 18, 233, "Text",ExpressionUUID->"2dec3572-145a-4341-8f8c-124086a96a2f"],
+Cell[14686, 427, 285, 7, 125, "EquationNumbered",ExpressionUUID->"d150293c-ef89-4421-836e-36b975755eb5"],
+Cell[14974, 436, 157, 3, 98, "Text",ExpressionUUID->"98182808-48fd-4dda-bf3b-bdbad36104d8"],
+Cell[15134, 441, 213, 4, 125, "EquationNumbered",ExpressionUUID->"68131ad7-5079-4ff6-8dd9-b133843f657c"],
+Cell[15350, 447, 536, 8, 322, "Text",ExpressionUUID->"8f8781c6-e5ff-4350-b42a-36aed2f69b79"],
+Cell[15889, 457, 222, 4, 98, "Text",ExpressionUUID->"053c6888-7f6d-4863-9104-4e766c70c2b1"],
+Cell[16114, 463, 248, 6, 125, "EquationNumbered",ExpressionUUID->"affa0d63-8fe7-40fc-aa25-a7490376d80e"],
+Cell[16365, 471, 157, 3, 98, "Text",ExpressionUUID->"0444d3ed-2b95-4fe0-b683-c3d203766cc8"],
+Cell[16525, 476, 311, 7, 125, "EquationNumbered",ExpressionUUID->"46011b81-e385-433c-afe1-d53af5ab0419"],
+Cell[16839, 485, 152, 3, 98, "Text",ExpressionUUID->"b410f601-2fcf-46b5-8288-9715d65c8c14"],
 Cell[16994, 490, 271, 7, 125, "EquationNumbered",ExpressionUUID->"67de1b38-71e6-4660-8de9-b583302ed05d"],
 Cell[17268, 499, 444, 12, 173, "Text",ExpressionUUID->"989c036b-e347-49c2-a18c-6ef6fd1d04de"],
 Cell[17715, 513, 326, 10, 125, "EquationNumbered",ExpressionUUID->"2bc34cb4-5bfa-40f9-a1ca-a97a292b563e"],
@@ -2308,13 +2643,13 @@ Cell[18410, 533, 486, 15, 128, "EquationNumbered",ExpressionUUID->"bd60a744-386d
 Cell[18899, 550, 500, 8, 247, "Text",ExpressionUUID->"d0781687-3cd2-4d7e-ae28-9a7fae000da3"],
 Cell[19402, 560, 653, 18, 190, "EquationNumbered",ExpressionUUID->"c6f7b3eb-5732-46fc-abe3-798be4acba72"],
 Cell[20058, 580, 455, 13, 98, "Text",ExpressionUUID->"5a908e48-8a9a-437a-a7e1-4b9e7a624f7d"],
-Cell[20516, 595, 334, 10, 125, "EquationNumbered",ExpressionUUID->"decfcd8a-8137-4488-bc12-8ad4bd555bd7"],
+Cell[20516, 595, 334, 10, 190, "EquationNumbered",ExpressionUUID->"decfcd8a-8137-4488-bc12-8ad4bd555bd7"],
 Cell[20853, 607, 217, 5, 173, "Text",ExpressionUUID->"d9e2c228-b40e-4f58-bc92-beddc6cd55bf"],
 Cell[21073, 614, 341, 9, 188, "EquationNumbered",ExpressionUUID->"a2bae32d-be41-41f7-876f-6fd66696f06a"],
 Cell[21417, 625, 416, 7, 247, "Text",ExpressionUUID->"3e87fc5b-6756-4b0f-9d8c-472feb252374"],
 Cell[21836, 634, 653, 18, 190, "EquationNumbered",ExpressionUUID->"47d09a95-8c26-4145-a0b7-ae73d7cafbd1"],
 Cell[22492, 654, 943, 28, 173, "Text",ExpressionUUID->"8ee9fc3d-0752-4733-be54-68e06db5531c"],
-Cell[23438, 684, 71, 0, 97, "Text",ExpressionUUID->"7a655fc8-b4d0-44e5-bdbb-8b4dcced323e"],
+Cell[23438, 684, 71, 0, 98, "Text",ExpressionUUID->"7a655fc8-b4d0-44e5-bdbb-8b4dcced323e"],
 Cell[23512, 686, 220, 4, 193, "Text",ExpressionUUID->"b3ebdf6f-ed80-4bce-af13-bc8d57474268"],
 Cell[23735, 692, 81240, 1336, 657, "Text",ExpressionUUID->"c68a54b9-116d-4633-a342-448f1269ee37"],
 Cell[104978, 2030, 699, 18, 249, "Text",ExpressionUUID->"2258a4f2-0f77-41e7-b813-544330e92d7d"],
@@ -2330,12 +2665,51 @@ Cell[108378, 2136, 307, 9, 125, "EquationNumbered",ExpressionUUID->"eb28316f-dab
 Cell[108688, 2147, 275, 8, 125, "EquationNumbered",ExpressionUUID->"c2b23fad-d09a-4d29-b06e-24a0f164da7d"],
 Cell[108966, 2157, 424, 13, 98, "Text",ExpressionUUID->"00affa9a-fc68-4843-9634-f92d3be97e27"],
 Cell[109393, 2172, 223, 5, 125, "EquationNumbered",ExpressionUUID->"8329a9ed-1805-40bb-81da-dbe90f01ed4c"],
-Cell[109619, 2179, 805, 18, 249, "Text",ExpressionUUID->"7faaf42e-cac2-4d3b-81dd-64881afca017"],
-Cell[110427, 2199, 193, 3, 98, "Text",ExpressionUUID->"a8475865-061a-4c60-83a5-20f7e0923062"],
-Cell[110623, 2204, 71, 0, 98, "Text",ExpressionUUID->"611fd3f4-f708-46da-ac69-97f6a4bdf121"],
-Cell[110697, 2206, 981, 22, 324, "Text",ExpressionUUID->"70b62473-3aa1-4bfd-ba72-6b483534d3c3"],
-Cell[111681, 2230, 71, 0, 98, "Text",ExpressionUUID->"d38477a8-c1d9-4546-8e2c-99efd102120b"],
-Cell[111755, 2232, 71, 0, 98, "Text",ExpressionUUID->"2d4c46f6-326a-4bfc-9123-5c043626e8ee"]
+Cell[109619, 2179, 560, 8, 247, "Text",ExpressionUUID->"9e3863b4-35c8-4e4e-ba42-597efccbf1b3"],
+Cell[110182, 2189, 193, 3, 98, "Text",ExpressionUUID->"a8475865-061a-4c60-83a5-20f7e0923062"],
+Cell[110378, 2194, 248, 7, 132, "EquationNumbered",ExpressionUUID->"ed5a1110-f92b-4e6b-beee-50cc1792e603"],
+Cell[110629, 2203, 246, 7, 132, "EquationNumbered",ExpressionUUID->"5c22db9a-e3eb-4a2b-9cfc-3256bd976746"],
+Cell[110878, 2212, 218, 5, 125, "EquationNumbered",ExpressionUUID->"24da8848-a818-45bb-af25-10f4f35b0c9b"],
+Cell[111099, 2219, 219, 5, 125, "EquationNumbered",ExpressionUUID->"60bdc5a2-f8d3-4397-b1bc-2fd233824be7"],
+Cell[111321, 2226, 221, 5, 125, "EquationNumbered",ExpressionUUID->"c1b56180-01cf-46e2-b3b2-d1b5109795cb"],
+Cell[111545, 2233, 226, 5, 125, "EquationNumbered",ExpressionUUID->"f15c4e58-fc08-42f2-b8e8-422bbe908419"],
+Cell[111774, 2240, 423, 8, 173, "Text",ExpressionUUID->"33ed0c37-11a4-4a47-8449-15e7499353a0"],
+Cell[112200, 2250, 613, 9, 322, "Text",ExpressionUUID->"0b62048e-e0ae-4b15-aeb2-10107d4ec955"],
+Cell[112816, 2261, 193, 3, 98, "Text",ExpressionUUID->"416fef1e-387b-485a-8887-2b6f6804372d"],
+Cell[113012, 2266, 248, 7, 132, "EquationNumbered",ExpressionUUID->"a170a829-1227-441f-b587-4c36663bb9db"],
+Cell[113263, 2275, 317, 8, 132, "EquationNumbered",ExpressionUUID->"338ffa62-f9e7-4356-b9a5-2f4edd176c66"],
+Cell[113583, 2285, 241, 5, 125, "EquationNumbered",ExpressionUUID->"5b3ade1d-7393-42e7-9c75-7ab7d8850fd0"],
+Cell[113827, 2292, 272, 6, 125, "EquationNumbered",ExpressionUUID->"033f434e-b2a1-488c-aa59-158e6837a663"],
+Cell[114102, 2300, 273, 6, 125, "EquationNumbered",ExpressionUUID->"622d6389-06ae-43f4-96af-06ef7a7ae3d5"],
+Cell[114378, 2308, 251, 5, 125, "EquationNumbered",ExpressionUUID->"8d3115fd-8423-40e7-bf05-a0b320d7db52"],
+Cell[114632, 2315, 379, 10, 173, "Text",ExpressionUUID->"2d4c46f6-326a-4bfc-9123-5c043626e8ee"],
+Cell[115014, 2327, 71, 0, 98, "Text",ExpressionUUID->"ce3dd2b1-45ca-4701-a6cc-779edf27b389"],
+Cell[115088, 2329, 318, 5, 277, "Text",ExpressionUUID->"4a88d6b4-83a1-4920-abee-da8c4838c94b"],
+Cell[115409, 2336, 328, 6, 173, "Text",ExpressionUUID->"1c289023-11a4-48e7-b235-6541639acf34"],
+Cell[115740, 2344, 742, 15, 322, "Text",ExpressionUUID->"f1480ec6-0110-406a-91d2-649515a88f24"],
+Cell[116485, 2361, 278, 5, 173, "Text",ExpressionUUID->"774f0dd9-392f-4c45-820b-f01402a91354"],
+Cell[116766, 2368, 312, 7, 173, "Text",ExpressionUUID->"bd14efbc-0b98-40a4-acf0-0cfc80768ca2"],
+Cell[117081, 2377, 437, 7, 322, "Text",ExpressionUUID->"113c07ab-0ad2-41f5-a2cd-8374bcdb7eae"],
+Cell[117521, 2386, 505, 10, 173, "Text",ExpressionUUID->"f9edd258-a563-478d-886c-36348b1d99cf"],
+Cell[118029, 2398, 468, 7, 277, "Text",ExpressionUUID->"83bdcaf2-5e45-47df-85e8-e1665afe07cc"],
+Cell[118500, 2407, 358, 6, 98, "Text",ExpressionUUID->"82affe4c-0fd1-479c-9de0-87b8d7126399"],
+Cell[118861, 2415, 187, 4, 98, "Text",ExpressionUUID->"11321c49-898c-41c1-8f49-4ea36e942291"],
+Cell[119051, 2421, 342, 9, 125, "EquationNumbered",ExpressionUUID->"165ec2b5-95f7-4c9e-8b18-b1542a9d09d7"],
+Cell[119396, 2432, 155, 3, 98, "Text",ExpressionUUID->"a6c782da-9b64-4798-bb82-242692a4ece3"],
+Cell[119554, 2437, 313, 8, 125, "EquationNumbered",ExpressionUUID->"099e1944-8b6c-47a2-8e75-7402fdf433eb"],
+Cell[119870, 2447, 178, 4, 98, "Text",ExpressionUUID->"4e5765b8-9c73-4ae9-a9c2-4b3907b10673"],
+Cell[120051, 2453, 320, 9, 125, "EquationNumbered",ExpressionUUID->"1f2c44f5-143a-43c3-b995-6104b6f42838"],
+Cell[120374, 2464, 339, 5, 173, "Text",ExpressionUUID->"4d7642ce-3592-4daa-b246-27e0f843c230"],
+Cell[120716, 2471, 174, 3, 98, "Text",ExpressionUUID->"a72e67b7-c391-41d1-9215-a8bf1942eecb"],
+Cell[120893, 2476, 324, 9, 198, "EquationNumbered",ExpressionUUID->"03bbd36a-89fb-428e-a255-d3b77dfb5bd1"],
+Cell[121220, 2487, 151, 3, 98, "Text",ExpressionUUID->"7c909174-2d16-4a41-aa16-8e86df4b90fc"],
+Cell[121374, 2492, 468, 11, 125, "EquationNumbered",ExpressionUUID->"bd10e581-a5a5-423b-aee5-bef14c0e3fa9"],
+Cell[121845, 2505, 478, 14, 98, "Text",ExpressionUUID->"9230cbc7-ba37-40f9-b751-6f82bff04f44"],
+Cell[122326, 2521, 351, 9, 125, "EquationNumbered",ExpressionUUID->"c93e82bf-d4f1-408e-b4fc-c144f82ea9af"],
+Cell[122680, 2532, 158, 3, 98, "Text",ExpressionUUID->"3365b41e-4975-4b39-9a66-12a68e95d478"],
+Cell[122841, 2537, 400, 11, 125, "EquationNumbered",ExpressionUUID->"e9994c32-0418-4166-8e2c-95575795a15c"],
+Cell[123244, 2550, 444, 7, 322, "Text",ExpressionUUID->"eed7f17a-d843-4a15-846a-22e4967cb366"],
+Cell[123691, 2559, 375, 7, 173, "Text",ExpressionUUID->"c283b52d-7e45-43bd-b5c3-a5e36d6bf543"]
 }, Open  ]]
 }
 ]

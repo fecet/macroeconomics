@@ -39,7 +39,7 @@ Recall that $Y-C-G$ is national saving $S$:
 $$
 S-I=NX
 $$
-$NX​$ is also called as **trade balance**, and $S-I​$ is **net capital outflow**. Depending on $S-I​$, we
+$NX$ is also called as **trade balance**, and $S-I$ is **net capital outflow**. Depending on $S-I$, we
 
 - trade surplus if it’s positive
 - trade deficit if it’s negative
